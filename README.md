@@ -40,6 +40,44 @@ that's more useful than "Box 1". The script checks that the tracking code on the
 fetched page matches the one in the config, so a mismatched URL fails loudly
 rather than showing the wrong box.
 
+## Email alerts
+
+`scripts/notify.mjs` emails the family twice per box: once when it's about to
+arrive, and again once it's delivered.
+
+- **Arriving** fires when FedEx marks the box out for delivery, or when the
+  estimated delivery date is today and it hasn't been delivered yet, whichever
+  happens first.
+- **Delivered** fires when FedEx marks it delivered, and includes who signed
+  for it when FedEx reports a name.
+
+`state/notified.json` records what has already gone out, so each box triggers
+each email exactly once. State is written only after the send succeeds, so a
+failed send retries on the next run rather than being silently swallowed.
+
+Preview without sending anything:
+
+```bash
+npm run notify:dry
+```
+
+Recipients live in the `MAIL_TO` secret rather than in this file, because the
+repo is public and addresses in a public repo get scraped.
+
+### Turning it on
+
+Three repository secrets are needed (Settings → Secrets and variables → Actions):
+
+| Secret | Value |
+|---|---|
+| `MAIL_TO` | comma-separated recipients |
+| `SMTP_USER` | the Gmail address the mail is sent from |
+| `SMTP_PASS` | a Gmail **app password**, not the account password |
+
+An app password comes from the Google account's security settings and requires
+2-step verification. Set them from the terminal with `gh secret set MAIL_TO`
+and so on, which prompts for the value instead of putting it in shell history.
+
 ## Running it locally
 
 ```bash
