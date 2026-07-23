@@ -1,0 +1,37 @@
+{
+  "shipmentRequestId": "672473",
+  "origin": "Brooklyn, NY",
+  "destination": "Sunnyvale, CA",
+  "packages": [
+    {
+      "nickname": "Box 1",
+      "trackingCode": "874585479240",
+      "trackerUrl": "https://track.easypost.com/djE6dHJrXzQzMjBmOWQ0NDZlNzRiMzlhZjNlMmZiMWZjZWZjZTU1"
+    },
+    {
+      "nickname": "Box 2",
+      "trackingCode": "874585478336",
+      "trackerUrl": "https://track.easypost.com/djE6dHJrX2ZhODc0NjQzMjUxYjRkMzdhNjlhNTc0ZWMyNmViMjU5"
+    },
+    {
+      "nickname": "Box 3",
+      "trackingCode": "874585479766",
+      "trackerUrl": "https://track.easypost.com/djE6dHJrX2Q2NGVlNmEzYjUwNDRkMDFhYjZiMTExNzk3ZTk1MzQw"
+    },
+    {
+      "nickname": "Box 4",
+      "trackingCode": "874585480965",
+      "trackerUrl": "https://track.easypost.com/djE6dHJrXzk0MDAwMGNmNGMwNjQ3YjA5MjAwZThjMTdhYzM3NmFj"
+    },
+    {
+      "nickname": "Box 5",
+      "trackingCode": "874585480531",
+      "trackerUrl": "https://track.easypost.com/djE6dHJrXzkzMDc0ODdiMzY0MTQxNGY4YTMyMmIzY2NhNTE3NjBj"
+    },
+    {
+      "nickname": "Box 6",
+      "trackingCode": "874585480510",
+      "trackerUrl": "https://track.easypost.com/djE6dHJrX2E3ZGY3OTlhMWJlNzRjOGRhMzhkMjA3ZGUzMzQzMDAw"
+    }
+  ]
+}

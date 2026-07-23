@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Our Boxes</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page:           #f9f9f7;
+    --surface:        #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --muted:          #898781;
+    --grid:           #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --progress:       #2a78d6;
+    --good:           #0ca30c;
+    --critical:       #d03b3b;
+    --warning:        #fab219;
+    --shadow:         0 1px 2px rgba(11,11,11,0.05), 0 4px 12px rgba(11,11,11,0.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page:           #0d0d0d;
+      --surface:        #1a1a19;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted:          #898781;
+      --grid:           #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --progress:       #3987e5;
+      --shadow:         none;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:           #0d0d0d;
+    --surface:        #1a1a19;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted:          #898781;
+    --grid:           #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --progress:       #3987e5;
+    --shadow:         none;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+
+  header { margin-bottom: 28px; }
+  h1 { font-size: 1.75rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .route {
+    color: var(--text-secondary); font-size: 0.95rem; margin: 0 0 4px;
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  }
+  .route .arrow { color: var(--muted); }
+  .updated { color: var(--muted); font-size: 0.82rem; margin: 0; }
+
+  /* ---- summary tiles ---- */
+  .tiles {
+    display: grid; gap: 12px; margin: 24px 0 28px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .tile {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 16px; box-shadow: var(--shadow);
+  }
+  .tile .label {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin-bottom: 6px;
+  }
+  .tile .value { font-size: 1.65rem; font-weight: 650; letter-spacing: -0.02em; }
+  .tile .sub { font-size: 0.82rem; color: var(--text-secondary); margin-top: 2px; }
+
+  /* ---- cards ---- */
+  .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px; box-shadow: var(--shadow);
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .nickname { font-size: 1.1rem; font-weight: 650; margin: 0; }
+  .tracking {
+    font-size: 0.78rem; color: var(--muted);
+    font-variant-numeric: tabular-nums; margin-top: 2px;
+  }
+  .tracking a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+  .tracking a:hover { color: var(--text-secondary); }
+
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px; flex-shrink: 0;
+    font-size: 0.78rem; font-weight: 600; padding: 4px 10px;
+    border-radius: 999px; border: 1px solid currentColor; white-space: nowrap;
+  }
+  .chip svg { width: 13px; height: 13px; flex-shrink: 0; }
+
+  /* ---- progress meter ---- */
+  .meter { display: flex; gap: 2px; }
+  .seg { flex: 1; height: 7px; background: var(--grid); border-radius: 1px; }
+  .seg:first-child { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
+  .seg:last-child { border-top-right-radius: 4px; border-bottom-right-radius: 4px; }
+  .seg.on { background: var(--progress); }
+  .seg.done { background: var(--good); }
+  .seg.bad { background: var(--critical); }
+  .stages {
+    display: flex; gap: 2px; margin-top: 6px;
+    font-size: 0.68rem; color: var(--muted);
+  }
+  .stages span { flex: 1; }
+  .stages span:nth-child(2), .stages span:nth-child(3) { text-align: center; }
+  .stages span:last-child { text-align: right; }
+  .stages span.cur { color: var(--text-primary); font-weight: 650; }
+
+  /* ---- current location ---- */
+  .now { border-top: 1px solid var(--grid); padding-top: 12px; }
+  .now .where { font-size: 1rem; font-weight: 600; margin-bottom: 2px; }
+  .now .what { font-size: 0.88rem; color: var(--text-secondary); }
+  .now .when { font-size: 0.78rem; color: var(--muted); margin-top: 3px; font-variant-numeric: tabular-nums; }
+  .eta-line { font-size: 0.85rem; color: var(--text-secondary); margin-top: 8px; }
+  .eta-line b { color: var(--text-primary); font-weight: 650; }
+
+  /* ---- timeline ---- */
+  details { border-top: 1px solid var(--grid); padding-top: 10px; margin-top: auto; }
+  summary {
+    cursor: pointer; font-size: 0.82rem; color: var(--text-secondary);
+    list-style: none; user-select: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸ "; color: var(--muted); }
+  details[open] summary::before { content: "▾ "; }
+  summary:hover { color: var(--text-primary); }
+  .events { margin: 12px 0 2px; padding: 0; list-style: none; }
+  .events li {
+    display: grid; grid-template-columns: 108px 1fr; gap: 10px;
+    padding: 7px 0; border-top: 1px solid var(--grid); font-size: 0.82rem;
+  }
+  .events li:first-child { border-top: none; }
+  .events time { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .events .msg { color: var(--text-primary); }
+  .events .loc { color: var(--text-secondary); font-size: 0.78rem; }
+
+  /* ---- table view ---- */
+  .toolbar { display: flex; justify-content: flex-end; margin-bottom: 12px; }
+  button.toggle {
+    font: inherit; font-size: 0.82rem; cursor: pointer;
+    background: var(--surface); color: var(--text-secondary);
+    border: 1px solid var(--border); border-radius: 8px; padding: 6px 12px;
+  }
+  button.toggle:hover { color: var(--text-primary); }
+  .table-wrap { overflow-x: auto; margin-top: 4px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.85rem; background: var(--surface); }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+  th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 600; }
+  td.num { font-variant-numeric: tabular-nums; }
+  td.scan { white-space: normal; min-width: 240px; max-width: 340px; }
+  [hidden] { display: none !important; }
+
+  .banner {
+    border: 1px solid var(--critical); color: var(--critical);
+    border-radius: 10px; padding: 12px 14px; margin-bottom: 18px; font-size: 0.88rem;
+  }
+  footer {
+    margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--grid);
+    font-size: 0.78rem; color: var(--muted);
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Our Boxes</h1>
+    <p class="route" id="route"></p>
+    <p class="updated" id="updated">Loading…</p>
+  </header>
+
+  <div id="banner"></div>
+
+  <section class="tiles" id="tiles" aria-label="Summary"></section>
+
+  <div class="toolbar">
+    <button class="toggle" id="viewToggle" aria-pressed="false">Table view</button>
+  </div>
+
+  <section class="cards" id="cards" aria-label="Packages"></section>
+
+  <section class="table-wrap" id="tableView" hidden aria-label="Packages, table view">
+    <table>
+      <thead>
+        <tr><th>Box</th><th>Status</th><th>Where it is now</th><th>Last scan</th><th>Est. delivery</th><th>Tracking #</th></tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p id="footnote"></p>
+  </footer>
+</div>
+
+<script>
+const ICON = {
+  check: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8.5l3.5 3.5 7.5-8"/></svg>',
+  truck: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 4.5h8v7H1zM9 7h3l2 2.5v2h-5z"/><circle cx="4" cy="12.5" r="1.4"/><circle cx="11.5" cy="12.5" r="1.4"/></svg>',
+  box: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 1.6l6 3v6.8l-6 3-6-3V4.6z"/><path d="M2 4.6l6 3 6-3M8 7.6v6.8"/></svg>',
+  home: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7l6-5 6 5v7H2z"/></svg>',
+  alert: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 1.8L15 14H1z"/><path d="M8 6.2v3.4M8 11.8v.05"/></svg>',
+};
+
+// stage: 0 label created, 1 in transit, 2 out for delivery, 3 delivered, -1 exception
+const STATUS = {
+  pre_transit:          { stage: 0, label: "Label created",   icon: "box",   color: "var(--muted)" },
+  in_transit:           { stage: 1, label: "On the way",      icon: "truck", color: "var(--progress)" },
+  out_for_delivery:     { stage: 2, label: "Out for delivery",icon: "truck", color: "var(--progress)" },
+  available_for_pickup: { stage: 2, label: "Ready for pickup",icon: "home",  color: "var(--progress)" },
+  delivered:            { stage: 3, label: "Delivered",       icon: "check", color: "var(--good)" },
+  return_to_sender:     { stage: -1, label: "Returning to sender", icon: "alert", color: "var(--critical)" },
+  failure:              { stage: -1, label: "Problem",        icon: "alert", color: "var(--critical)" },
+  cancelled:            { stage: -1, label: "Cancelled",      icon: "alert", color: "var(--critical)" },
+  error:                { stage: -1, label: "Couldn't check", icon: "alert", color: "var(--critical)" },
+  unknown:              { stage: 0,  label: "Not scanned yet",icon: "box",   color: "var(--muted)" },
+};
+const STAGE_NAMES = ["Label", "On the way", "Almost there", "Delivered"];
+
+const meta = (s) => STATUS[s] || STATUS.unknown;
+const titleCase = (s) =>
+  s ? s.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase()) : "";
+
+function place(ev) {
+  if (!ev) return null;
+  const city = titleCase(ev.city);
+  const parts = [city, ev.state].filter(Boolean);
+  return parts.length ? parts.join(", ") : null;
+}
+
+function fmtDateTime(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  return d.toLocaleString(undefined, {
+    month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+  });
+}
+function fmtTime(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  return d.toLocaleString(undefined, { hour: "numeric", minute: "2-digit" });
+}
+function fmtDay(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  return d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+}
+function fmtEta(p) {
+  // Prefer the carrier's local calendar date so a UTC midnight ETA never shifts a day.
+  const raw = p.estDeliveryLocal || p.estDelivery;
+  if (!raw) return null;
+  const d = p.estDeliveryLocal
+    ? new Date(p.estDeliveryLocal + "T12:00:00")
+    : new Date(p.estDelivery);
+  if (isNaN(d)) return null;
+  return d.toLocaleDateString(undefined, { weekday: "long", month: "short", day: "numeric" });
+}
+
+function chip(p) {
+  const m = meta(p.status);
+  return `<span class="chip" style="color:${m.color}">${ICON[m.icon]}${m.label}</span>`;
+}
+
+function meterHtml(p) {
+  const m = meta(p.status);
+  let segs = "";
+  for (let i = 0; i < 4; i++) {
+    let cls = "seg";
+    if (m.stage === -1) cls += i === 0 ? " bad" : "";
+    else if (m.stage === 3) cls += " done";
+    else if (i <= m.stage) cls += " on";
+    segs += `<div class="${cls}"></div>`;
+  }
+  const names = STAGE_NAMES.map(
+    (n, i) => `<span class="${i === m.stage ? "cur" : ""}">${n}</span>`
+  ).join("");
+  return `<div><div class="meter" role="img" aria-label="Stage: ${m.label}">${segs}</div>
+          <div class="stages" aria-hidden="true">${names}</div></div>`;
+}
+
+function timelineHtml(p) {
+  if (!p.events || !p.events.length) return "";
+  const rows = [...p.events].reverse().map((ev) => {
+    const loc = place(ev);
+    return `<li>
+      <time datetime="${ev.datetime || ""}">${fmtDay(ev.datetimeLocal || ev.datetime)}<br>${fmtTime(ev.datetimeLocal || ev.datetime)}</time>
+      <div><div class="msg">${ev.message || ""}</div>${loc ? `<div class="loc">${loc}</div>` : ""}</div>
+    </li>`;
+  }).join("");
+  return `<details><summary>Full history (${p.events.length} scans)</summary>
+            <ul class="events">${rows}</ul></details>`;
+}
+
+function cardHtml(p) {
+  const ev = p.lastEvent;
+  const loc = place(ev);
+  const eta = fmtEta(p);
+  const m = meta(p.status);
+
+  const nowBlock = p.status === "error"
+    ? `<div class="now"><div class="where" style="color:var(--critical)">Couldn't refresh this box</div>
+         <div class="what">${p.error || "Lookup failed."} Try the FedEx link below.</div></div>`
+    : `<div class="now">
+         <div class="where">${loc || "Not scanned yet"}</div>
+         <div class="what">${ev && ev.message ? ev.message : "Waiting for the first scan."}</div>
+         ${ev ? `<div class="when">${fmtDateTime(ev.datetimeLocal || ev.datetime)}</div>` : ""}
+         <div class="eta-line">${eta ? `Arriving <b>${eta}</b>` : "Estimated delivery not set yet"}</div>
+       </div>`;
+
+  return `<article class="card">
+    <div class="card-top">
+      <div>
+        <h2 class="nickname">${p.nickname}</h2>
+        <div class="tracking"><a href="${p.trackerUrl}" target="_blank" rel="noopener">${p.trackingCode}</a></div>
+      </div>
+      ${chip(p)}
+    </div>
+    ${m.stage === -1 && p.status !== "error" ? "" : meterHtml(p)}
+    ${nowBlock}
+    ${timelineHtml(p)}
+  </article>`;
+}
+
+function tilesHtml(d) {
+  const ps = d.packages;
+  const count = (fn) => ps.filter(fn).length;
+  const delivered = count((p) => p.status === "delivered");
+  const moving = count((p) => p.status === "in_transit" || p.status === "out_for_delivery");
+  const waiting = count((p) => p.status === "pre_transit" || p.status === "unknown");
+  const problems = count((p) => meta(p.status).stage === -1);
+
+  // Latest ETA across boxes = when the whole shipment should be complete.
+  const etas = ps.map((p) => p.estDeliveryLocal || (p.estDelivery || "").slice(0, 10)).filter(Boolean);
+  const lastEta = etas.length ? [...etas].sort().at(-1) : null;
+  const etaText = lastEta
+    ? new Date(lastEta + "T12:00:00").toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })
+    : "Not set yet";
+  const missing = ps.length - etas.length;
+  const etaSub = !etas.length
+    ? "No estimates yet"
+    : missing
+      ? `${missing} still without an estimate`
+      : "All boxes";
+
+  const tiles = [
+    { label: "Boxes", value: ps.length, sub: "In this shipment" },
+    { label: "Delivered", value: delivered, sub: delivered === ps.length ? "All arrived" : `${ps.length - delivered} still out` },
+    { label: "On the way", value: moving, sub: waiting ? `${waiting} not picked up yet` : "Moving now" },
+    { label: "Last arrival", value: etaText, sub: etaSub },
+  ];
+  if (problems) tiles.push({ label: "Needs attention", value: problems, sub: "See cards below" });
+
+  return tiles.map((t) => `<div class="tile">
+      <div class="label">${t.label}</div>
+      <div class="value">${t.value}</div>
+      <div class="sub">${t.sub}</div>
+    </div>`).join("");
+}
+
+function tableHtml(d) {
+  return d.packages.map((p) => {
+    const ev = p.lastEvent;
+    const eta = fmtEta(p);
+    return `<tr>
+      <td>${p.nickname}</td>
+      <td>${meta(p.status).label}</td>
+      <td>${place(ev) || "—"}</td>
+      <td class="scan">${ev ? `${ev.message} · ${fmtDateTime(ev.datetimeLocal || ev.datetime)}` : "—"}</td>
+      <td>${eta || "—"}</td>
+      <td class="num">${p.trackingCode}</td>
+    </tr>`;
+  }).join("");
+}
+
+function render(d) {
+  document.getElementById("route").innerHTML = d.origin && d.destination
+    ? `<span>${d.origin}</span><span class="arrow">to</span><span>${d.destination}</span>`
+    : "";
+
+  const gen = d.generatedAt ? new Date(d.generatedAt) : null;
+  document.getElementById("updated").textContent = gen
+    ? `Updated ${gen.toLocaleString(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}`
+    : "";
+
+  if (d.failedCount > 0) {
+    document.getElementById("banner").innerHTML =
+      `<div class="banner">${ICON.alert} Couldn't refresh ${d.failedCount} of ${d.packages.length} boxes on the last check. Those cards show their last known state.</div>`;
+  }
+
+  document.getElementById("tiles").innerHTML = tilesHtml(d);
+  document.getElementById("cards").innerHTML = d.packages.map(cardHtml).join("");
+  document.getElementById("tableBody").innerHTML = tableHtml(d);
+  document.getElementById("footnote").innerHTML =
+    `Refreshed automatically every 30 minutes from FedEx tracking. ` +
+    `Shipment request ${d.shipmentRequestId || "—"}. Tap a tracking number for the full FedEx page.`;
+}
+
+const toggle = document.getElementById("viewToggle");
+toggle.addEventListener("click", () => {
+  const showTable = document.getElementById("cards").hasAttribute("hidden") === false;
+  document.getElementById("cards").toggleAttribute("hidden", showTable);
+  document.getElementById("tableView").toggleAttribute("hidden", !showTable);
+  toggle.textContent = showTable ? "Card view" : "Table view";
+  toggle.setAttribute("aria-pressed", String(showTable));
+});
+
+fetch("data/tracking.json?t=" + Date.now())
+  .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(render)
+  .catch((err) => {
+    document.getElementById("updated").textContent = "";
+    document.getElementById("banner").innerHTML =
+      `<div class="banner">${ICON.alert} Couldn't load tracking data (${err.message}).</div>`;
+  });
+</script>
+</body>
+</html>
