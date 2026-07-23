@@ -8,47 +8,93 @@
 <style>
   :root {
     color-scheme: light;
-    --page:           #f9f9f7;
-    --surface:        #fcfcfb;
-    --text-primary:   #0b0b0b;
-    --text-secondary: #52514e;
-    --muted:          #898781;
-    --grid:           #e1e0d9;
-    --baseline:       #c3c2b7;
-    --border:         rgba(11,11,11,0.10);
+    --page:           #fbf7f1;
+    --surface:        #ffffff;
+    --text-primary:   #221f1b;
+    --text-secondary: #5b554c;
+    --muted:          #918a7e;
+    --grid:           #ece5da;
+    --border:         rgba(34,31,27,0.10);
     --progress:       #2a78d6;
     --good:           #0ca30c;
     --critical:       #d03b3b;
-    --warning:        #fab219;
-    --shadow:         0 1px 2px rgba(11,11,11,0.05), 0 4px 12px rgba(11,11,11,0.04);
+    --shadow:         0 1px 2px rgba(80,60,40,0.05), 0 6px 18px rgba(80,60,40,0.06);
+
+    /* header illustration, daytime */
+    --sky-1: #cfeafc;  --sky-2: #ffe7c9;   --sun: #ffcf5c;
+    --cloud: #ffffff;  --ground: #cfe9c0;  --hill: #b7ddaa;
+    --brick-1: #dd9068; --brick-2: #c8764f; --brick-3: #e5a67e;
+    --brick-trim: #b4634a; --window: #ffe6a1; --door: #8c5237;
+    --route: rgba(255,255,255,0.95);
+    --truck-body: #fdfaf4; --truck-cab: #ef8a5e; --truck-glass: #c2e4f6;
+    --wheel-hub: #fdfaf4; --ink: #3d3730;
+    --box-face: #e9bb84; --box-face-2: #ddaa72; --box-lid: #d5a061; --box-tape: #f7ead3;
+    --trunk: #a9784f; --frond: #55b365; --coconut: #7d5a3c;
+    --star-opacity: 0; --sun-opacity: 1;
   }
   @media (prefers-color-scheme: dark) {
     :root:where(:not([data-theme="light"])) {
       color-scheme: dark;
-      --page:           #0d0d0d;
-      --surface:        #1a1a19;
-      --text-primary:   #ffffff;
-      --text-secondary: #c3c2b7;
-      --muted:          #898781;
-      --grid:           #2c2c2a;
-      --baseline:       #383835;
+      --page:           #100f0e;
+      --surface:        #1c1b19;
+      --text-primary:   #f7f4ef;
+      --text-secondary: #c6bfb3;
+      --muted:          #8e887d;
+      --grid:           #302e2a;
       --border:         rgba(255,255,255,0.10);
       --progress:       #3987e5;
       --shadow:         none;
+
+      /* header illustration, dusk */
+      --sky-1: #1b2444;  --sky-2: #462f4d;  --sun: transparent;
+      --cloud: rgba(255,255,255,0.09); --ground: #23301f; --hill: #2b3b2a;
+      --brick-1: #7d4d3a; --brick-2: #68402f; --brick-3: #8a5741;
+      --brick-trim: #5c382c; --window: #ffd98a; --door: #462c21;
+      --route: rgba(255,255,255,0.42);
+      --truck-body: #efe9df; --truck-cab: #d9764c; --truck-glass: #8fb9cf;
+      --wheel-hub: #efe9df; --ink: #23211d;
+      --box-face: #c39a68; --box-face-2: #b78c5c; --box-lid: #a97c4c; --box-tape: #e0cba9;
+      --trunk: #7c573a; --frond: #3f8a4c; --coconut: #5d4430;
+      --star-opacity: 1; --sun-opacity: 0;
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
-    --page:           #0d0d0d;
-    --surface:        #1a1a19;
-    --text-primary:   #ffffff;
-    --text-secondary: #c3c2b7;
-    --muted:          #898781;
-    --grid:           #2c2c2a;
-    --baseline:       #383835;
+    --page:           #100f0e;
+    --surface:        #1c1b19;
+    --text-primary:   #f7f4ef;
+    --text-secondary: #c6bfb3;
+    --muted:          #8e887d;
+    --grid:           #302e2a;
     --border:         rgba(255,255,255,0.10);
     --progress:       #3987e5;
     --shadow:         none;
+
+    --sky-1: #1b2444;  --sky-2: #462f4d;  --sun: transparent;
+    --cloud: rgba(255,255,255,0.09); --ground: #23301f; --hill: #2b3b2a;
+    --brick-1: #7d4d3a; --brick-2: #68402f; --brick-3: #8a5741;
+    --brick-trim: #5c382c; --window: #ffd98a; --door: #462c21;
+    --route: rgba(255,255,255,0.42);
+    --truck-body: #efe9df; --truck-cab: #d9764c; --truck-glass: #8fb9cf;
+    --wheel-hub: #efe9df; --ink: #23211d;
+    --box-face: #c39a68; --box-face-2: #b78c5c; --box-lid: #a97c4c; --box-tape: #e0cba9;
+    --trunk: #7c573a; --frond: #3f8a4c; --coconut: #5d4430;
+    --star-opacity: 1; --sun-opacity: 0;
+  }
+
+  /* ---- header illustration ---- */
+  .hero {
+    border-radius: 18px; overflow: hidden; margin-bottom: 20px;
+    box-shadow: var(--shadow); border: 1px solid var(--border);
+    aspect-ratio: 1000 / 250;
+  }
+  .hero svg { display: block; width: 100%; height: 100%; }
+  .hero .sun { opacity: var(--sun-opacity); }
+  .hero .stars { opacity: var(--star-opacity); }
+  .hero .route-line { animation: roll 2.4s linear infinite; }
+  @keyframes roll { to { stroke-dashoffset: -18; } }
+  @media (prefers-reduced-motion: reduce) {
+    .hero .route-line { animation: none; }
   }
 
   * { box-sizing: border-box; }
@@ -63,7 +109,7 @@
   .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
 
   header { margin-bottom: 28px; }
-  h1 { font-size: 1.75rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h1 { font-size: 2rem; margin: 0 0 6px; letter-spacing: -0.025em; }
   .route {
     color: var(--text-secondary); font-size: 0.95rem; margin: 0 0 4px;
     display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
@@ -78,7 +124,7 @@
   }
   .tile {
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: 10px; padding: 14px 16px; box-shadow: var(--shadow);
+    border-radius: 14px; padding: 14px 16px; box-shadow: var(--shadow);
   }
   .tile .label {
     font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
@@ -91,9 +137,12 @@
   .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
   .card {
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: 12px; padding: 18px; box-shadow: var(--shadow);
+    border-radius: 16px; padding: 18px; box-shadow: var(--shadow);
     display: flex; flex-direction: column; gap: 14px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 3px 6px rgba(80,60,40,0.07), 0 12px 28px rgba(80,60,40,0.09); }
+  @media (prefers-reduced-motion: reduce) { .card, .card:hover { transition: none; transform: none; } }
   .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
   .nickname { font-size: 1.1rem; font-weight: 650; margin: 0; }
   .tracking {
@@ -185,6 +234,134 @@
 <body>
 <div class="wrap">
   <header>
+    <div class="hero">
+      <svg viewBox="0 0 1000 250" role="img" aria-label="Illustration of boxes travelling from Brooklyn brownstones to California palm trees" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="var(--sky-1)"/>
+            <stop offset="100%" stop-color="var(--sky-2)"/>
+          </linearGradient>
+          <clipPath id="round"><rect x="0" y="0" width="1000" height="250" rx="18"/></clipPath>
+        </defs>
+
+        <g clip-path="url(#round)">
+          <rect width="1000" height="250" fill="url(#sky)"/>
+
+          <!-- sun by day, moon and stars by night -->
+          <circle class="sun" cx="828" cy="58" r="27" fill="var(--sun)"/>
+          <g class="stars" fill="#fff8e7">
+            <circle cx="120" cy="42" r="2"/><circle cx="250" cy="28" r="1.6"/>
+            <circle cx="410" cy="52" r="2.2"/><circle cx="560" cy="30" r="1.5"/>
+            <circle cx="690" cy="46" r="2"/><circle cx="930" cy="70" r="1.7"/>
+            <circle cx="350" cy="88" r="1.4"/><circle cx="620" cy="92" r="1.5"/>
+          </g>
+
+          <!-- clouds -->
+          <g fill="var(--cloud)">
+            <g transform="translate(150 62)">
+              <rect x="0" y="8" width="86" height="20" rx="10"/>
+              <circle cx="26" cy="12" r="15"/><circle cx="52" cy="15" r="12"/>
+            </g>
+            <g transform="translate(560 44)" opacity="0.85">
+              <rect x="0" y="8" width="70" height="17" rx="8.5"/>
+              <circle cx="22" cy="11" r="13"/><circle cx="46" cy="13" r="10"/>
+            </g>
+          </g>
+
+          <!-- ground -->
+          <rect y="196" width="1000" height="54" fill="var(--ground)"/>
+          <ellipse cx="880" cy="205" rx="180" ry="26" fill="var(--hill)"/>
+
+          <!-- Brooklyn brownstones -->
+          <g class="city">
+            <g>
+              <rect x="52" y="96" width="66" height="102" rx="6" fill="var(--brick-1)"/>
+              <rect x="46" y="88" width="78" height="14" rx="5" fill="var(--brick-trim)"/>
+              <g fill="var(--window)"><rect x="64" y="112" width="16" height="20" rx="3"/><rect x="90" y="112" width="16" height="20" rx="3"/><rect x="64" y="146" width="16" height="20" rx="3"/><rect x="90" y="146" width="16" height="20" rx="3"/></g>
+              <rect x="76" y="176" width="20" height="22" rx="4" fill="var(--door)"/>
+            </g>
+            <g>
+              <rect x="132" y="72" width="60" height="126" rx="6" fill="var(--brick-2)"/>
+              <rect x="126" y="64" width="72" height="14" rx="5" fill="var(--brick-trim)"/>
+              <g fill="var(--window)"><rect x="144" y="90" width="15" height="19" rx="3"/><rect x="167" y="90" width="15" height="19" rx="3"/><rect x="144" y="122" width="15" height="19" rx="3"/><rect x="167" y="122" width="15" height="19" rx="3"/></g>
+              <rect x="152" y="176" width="20" height="22" rx="4" fill="var(--door)"/>
+            </g>
+            <g>
+              <rect x="206" y="110" width="58" height="88" rx="6" fill="var(--brick-3)"/>
+              <rect x="200" y="102" width="70" height="13" rx="5" fill="var(--brick-trim)"/>
+              <g fill="var(--window)"><rect x="218" y="126" width="15" height="18" rx="3"/><rect x="240" y="126" width="15" height="18" rx="3"/></g>
+              <rect x="226" y="176" width="20" height="22" rx="4" fill="var(--door)"/>
+            </g>
+          </g>
+
+          <!-- dashed route -->
+          <path class="route-line" d="M 285 172 Q 520 78 760 172" fill="none" stroke="var(--route)"
+                stroke-width="4" stroke-linecap="round" stroke-dasharray="2 16"/>
+
+          <!-- little truck carrying a box, riding the route -->
+          <g transform="translate(468 96)">
+            <g transform="translate(14 -26)">
+              <rect x="0" y="0" width="34" height="30" rx="5" fill="var(--box-face)"/>
+              <rect x="0" y="0" width="34" height="9" rx="4" fill="var(--box-lid)"/>
+              <path d="M17 0 v30" stroke="var(--box-tape)" stroke-width="3"/>
+              <circle cx="10" cy="18" r="1.9" fill="var(--ink)"/>
+              <circle cx="24" cy="18" r="1.9" fill="var(--ink)"/>
+              <path d="M11 24 q6 5 12 0" stroke="var(--ink)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </g>
+            <rect x="0" y="4" width="62" height="34" rx="7" fill="var(--truck-body)"/>
+            <path d="M62 14 h18 l14 15 v9 h-32 z" fill="var(--truck-cab)"/>
+            <rect x="66" y="17" width="16" height="12" rx="3" fill="var(--truck-glass)"/>
+            <circle cx="18" cy="42" r="9" fill="var(--ink)"/><circle cx="18" cy="42" r="3.6" fill="var(--wheel-hub)"/>
+            <circle cx="76" cy="42" r="9" fill="var(--ink)"/><circle cx="76" cy="42" r="3.6" fill="var(--wheel-hub)"/>
+          </g>
+
+          <!-- California palms -->
+          <g class="palms">
+            <g transform="translate(806 92)">
+              <path d="M10 106 q-7 -56 3 -84" stroke="var(--trunk)" stroke-width="9" fill="none" stroke-linecap="round"/>
+              <g transform="translate(13 22)" fill="var(--frond)">
+                <g>
+                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(-34)"/>
+                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(3)"/>
+                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(40)"/>
+                </g>
+                <g transform="scale(-1,1)">
+                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(-30)"/>
+                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(6)"/>
+                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(43)"/>
+                </g>
+              </g>
+              <circle cx="13" cy="22" r="4.5" fill="var(--coconut)"/>
+            </g>
+            <g transform="translate(892 116)">
+              <path d="M8 82 q-6 -44 2 -64" stroke="var(--trunk)" stroke-width="7" fill="none" stroke-linecap="round"/>
+              <g transform="translate(10 18)" fill="var(--frond)">
+                <g>
+                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(-36)"/>
+                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(4)"/>
+                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(42)"/>
+                </g>
+                <g transform="scale(-1,1)">
+                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(-32)"/>
+                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(7)"/>
+                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(45)"/>
+                </g>
+              </g>
+              <circle cx="10" cy="18" r="3.6" fill="var(--coconut)"/>
+            </g>
+          </g>
+
+          <!-- boxes waiting at the destination -->
+          <g transform="translate(700 152)">
+            <rect x="0" y="18" width="40" height="30" rx="5" fill="var(--box-face)"/>
+            <rect x="0" y="18" width="40" height="9" rx="4" fill="var(--box-lid)"/>
+            <path d="M20 18 v30" stroke="var(--box-tape)" stroke-width="3"/>
+            <rect x="26" y="0" width="30" height="24" rx="5" fill="var(--box-face-2)"/>
+            <rect x="26" y="0" width="30" height="7" rx="3.5" fill="var(--box-lid)"/>
+          </g>
+        </g>
+      </svg>
+    </div>
     <h1>Our Boxes</h1>
     <p class="route" id="route"></p>
     <p class="updated" id="updated">Loading…</p>

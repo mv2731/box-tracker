@@ -1,0 +1,14 @@
+{
+  "name": "box-tracker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-tracking.mjs",
+    "notify": "node scripts/notify.mjs",
+    "notify:dry": "node scripts/notify.mjs --dry-run"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
