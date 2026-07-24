@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T14:19:24.500Z",
+  "generatedAt": "2026-07-24T15:53:06.438Z",
   "shipmentRequestId": "672473",
   "origin": "Brooklyn, NY",
   "destination": "Sunnyvale, CA",
@@ -15,7 +15,7 @@
       "statusDetail": "in_transit",
       "estDelivery": "2026-07-28T00:00:00Z",
       "estDeliveryLocal": "2026-07-28",
-      "carrierUpdatedAt": "2026-07-24T14:18:46Z",
+      "carrierUpdatedAt": "2026-07-24T14:58:47Z",
       "signedBy": null,
       "weightOz": 80,
       "originLocation": "BROOKLYN NY US",
@@ -154,7 +154,7 @@
       "statusDetail": "in_transit",
       "estDelivery": "2026-07-28T00:00:00Z",
       "estDeliveryLocal": "2026-07-28",
-      "carrierUpdatedAt": "2026-07-24T13:35:25Z",
+      "carrierUpdatedAt": "2026-07-24T14:52:32Z",
       "signedBy": null,
       "weightOz": 80,
       "originLocation": "BROOKLYN NY US",
@@ -293,20 +293,20 @@
       "statusDetail": "received_at_origin_facility",
       "estDelivery": null,
       "estDeliveryLocal": null,
-      "carrierUpdatedAt": "2026-07-24T13:05:08Z",
+      "carrierUpdatedAt": "2026-07-24T15:11:47Z",
       "signedBy": null,
       "weightOz": 80,
-      "originLocation": "New York NY US",
+      "originLocation": "NEWARK CA US",
       "destinationLocation": "Sunnyvale CA US",
       "lastEvent": {
-        "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+        "message": "Picked up",
         "status": "in_transit",
         "statusDetail": "received_at_origin_facility",
-        "datetime": "2026-07-23T22:11:00Z",
-        "datetimeLocal": "2026-07-23T18:11:00-04:00",
-        "city": "NEW YORK",
+        "datetime": "2026-07-24T15:10:00Z",
+        "datetimeLocal": "2026-07-24T11:10:00-04:00",
+        "city": "BROOKLYN",
         "state": "NY",
-        "zip": "10024",
+        "zip": "11211",
         "country": "US"
       },
       "events": [
@@ -331,6 +331,17 @@
           "state": "NY",
           "zip": "10024",
           "country": "US"
+        },
+        {
+          "message": "Picked up",
+          "status": "in_transit",
+          "statusDetail": "received_at_origin_facility",
+          "datetime": "2026-07-24T15:10:00Z",
+          "datetimeLocal": "2026-07-24T11:10:00-04:00",
+          "city": "BROOKLYN",
+          "state": "NY",
+          "zip": "11211",
+          "country": "US"
         }
       ]
     },
@@ -344,20 +355,20 @@
       "statusDetail": "received_at_origin_facility",
       "estDelivery": null,
       "estDeliveryLocal": null,
-      "carrierUpdatedAt": "2026-07-24T13:47:04Z",
+      "carrierUpdatedAt": "2026-07-24T15:48:34Z",
       "signedBy": null,
       "weightOz": 80,
-      "originLocation": "New York NY US",
+      "originLocation": "NEWARK CA US",
       "destinationLocation": "Sunnyvale CA US",
       "lastEvent": {
-        "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+        "message": "Picked up",
         "status": "in_transit",
         "statusDetail": "received_at_origin_facility",
-        "datetime": "2026-07-23T22:10:00Z",
-        "datetimeLocal": "2026-07-23T18:10:00-04:00",
-        "city": "NEW YORK",
+        "datetime": "2026-07-24T15:10:00Z",
+        "datetimeLocal": "2026-07-24T11:10:00-04:00",
+        "city": "BROOKLYN",
         "state": "NY",
-        "zip": "10024",
+        "zip": "11211",
         "country": "US"
       },
       "events": [
@@ -382,6 +393,17 @@
           "state": "NY",
           "zip": "10024",
           "country": "US"
+        },
+        {
+          "message": "Picked up",
+          "status": "in_transit",
+          "statusDetail": "received_at_origin_facility",
+          "datetime": "2026-07-24T15:10:00Z",
+          "datetimeLocal": "2026-07-24T11:10:00-04:00",
+          "city": "BROOKLYN",
+          "state": "NY",
+          "zip": "11211",
+          "country": "US"
         }
       ]
     },
@@ -395,20 +417,20 @@
       "statusDetail": "received_at_origin_facility",
       "estDelivery": null,
       "estDeliveryLocal": null,
-      "carrierUpdatedAt": "2026-07-24T14:04:03Z",
+      "carrierUpdatedAt": "2026-07-24T15:24:47Z",
       "signedBy": null,
       "weightOz": 80,
-      "originLocation": "New York NY US",
+      "originLocation": "NEWARK CA US",
       "destinationLocation": "Sunnyvale CA US",
       "lastEvent": {
-        "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+        "message": "Picked up",
         "status": "in_transit",
         "statusDetail": "received_at_origin_facility",
-        "datetime": "2026-07-23T22:09:00Z",
-        "datetimeLocal": "2026-07-23T18:09:00-04:00",
-        "city": "NEW YORK",
+        "datetime": "2026-07-24T15:10:00Z",
+        "datetimeLocal": "2026-07-24T11:10:00-04:00",
+        "city": "BROOKLYN",
         "state": "NY",
-        "zip": "10024",
+        "zip": "11211",
         "country": "US"
       },
       "events": [
@@ -433,6 +455,17 @@
           "state": "NY",
           "zip": "10024",
           "country": "US"
+        },
+        {
+          "message": "Picked up",
+          "status": "in_transit",
+          "statusDetail": "received_at_origin_facility",
+          "datetime": "2026-07-24T15:10:00Z",
+          "datetimeLocal": "2026-07-24T11:10:00-04:00",
+          "city": "BROOKLYN",
+          "state": "NY",
+          "zip": "11211",
+          "country": "US"
         }
       ]
     },
@@ -446,20 +479,20 @@
       "statusDetail": "received_at_origin_facility",
       "estDelivery": null,
       "estDeliveryLocal": null,
-      "carrierUpdatedAt": "2026-07-24T13:11:54Z",
+      "carrierUpdatedAt": "2026-07-24T15:38:47Z",
       "signedBy": null,
       "weightOz": 80,
-      "originLocation": "New York NY US",
+      "originLocation": "NEWARK CA US",
       "destinationLocation": "Sunnyvale CA US",
       "lastEvent": {
-        "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+        "message": "Picked up",
         "status": "in_transit",
         "statusDetail": "received_at_origin_facility",
-        "datetime": "2026-07-23T22:11:00Z",
-        "datetimeLocal": "2026-07-23T18:11:00-04:00",
-        "city": "NEW YORK",
+        "datetime": "2026-07-24T15:10:00Z",
+        "datetimeLocal": "2026-07-24T11:10:00-04:00",
+        "city": "BROOKLYN",
         "state": "NY",
-        "zip": "10024",
+        "zip": "11211",
         "country": "US"
       },
       "events": [
@@ -483,6 +516,17 @@
           "city": "NEW YORK",
           "state": "NY",
           "zip": "10024",
+          "country": "US"
+        },
+        {
+          "message": "Picked up",
+          "status": "in_transit",
+          "statusDetail": "received_at_origin_facility",
+          "datetime": "2026-07-24T15:10:00Z",
+          "datetimeLocal": "2026-07-24T11:10:00-04:00",
+          "city": "BROOKLYN",
+          "state": "NY",
+          "zip": "11211",
           "country": "US"
         }
       ]
