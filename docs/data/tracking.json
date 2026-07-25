@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T21:23:05.302Z",
+  "generatedAt": "2026-07-25T22:24:10.059Z",
   "shipmentRequestId": "672473",
   "origin": "Brooklyn, NY",
   "destination": "Sunnyvale, CA",
@@ -15,7 +15,7 @@
       "statusDetail": "in_transit",
       "estDelivery": "2026-07-28T00:00:00Z",
       "estDeliveryLocal": "2026-07-28",
-      "carrierUpdatedAt": "2026-07-25T21:21:01Z",
+      "carrierUpdatedAt": "2026-07-25T22:12:05Z",
       "signedBy": null,
       "weightOz": 80,
       "originLocation": "BROOKLYN NY US",
@@ -24,11 +24,11 @@
         "message": "On the way",
         "status": "in_transit",
         "statusDetail": "in_transit",
-        "datetime": "2026-07-25T09:56:23Z",
-        "datetimeLocal": "2026-07-25T04:56:23-05:00",
-        "city": "LAURA",
-        "state": "IL",
-        "zip": "61451",
+        "datetime": "2026-07-25T22:03:45Z",
+        "datetimeLocal": "2026-07-25T17:03:45-05:00",
+        "city": "ROSE HILL",
+        "state": "KS",
+        "zip": "67133",
         "country": "US"
       },
       "events": [
@@ -163,6 +163,17 @@
           "state": "IL",
           "zip": "61451",
           "country": "US"
+        },
+        {
+          "message": "On the way",
+          "status": "in_transit",
+          "statusDetail": "in_transit",
+          "datetime": "2026-07-25T22:03:45Z",
+          "datetimeLocal": "2026-07-25T17:03:45-05:00",
+          "city": "ROSE HILL",
+          "state": "KS",
+          "zip": "67133",
+          "country": "US"
         }
       ]
     },
@@ -176,7 +187,7 @@
       "statusDetail": "in_transit",
       "estDelivery": "2026-07-28T00:00:00Z",
       "estDeliveryLocal": "2026-07-28",
-      "carrierUpdatedAt": "2026-07-25T21:13:20Z",
+      "carrierUpdatedAt": "2026-07-25T22:20:00Z",
       "signedBy": null,
       "weightOz": 80,
       "originLocation": "BROOKLYN NY US",
@@ -185,11 +196,11 @@
         "message": "On the way",
         "status": "in_transit",
         "statusDetail": "in_transit",
-        "datetime": "2026-07-25T09:56:23Z",
-        "datetimeLocal": "2026-07-25T04:56:23-05:00",
-        "city": "LAURA",
-        "state": "IL",
-        "zip": "61451",
+        "datetime": "2026-07-25T22:03:45Z",
+        "datetimeLocal": "2026-07-25T17:03:45-05:00",
+        "city": "ROSE HILL",
+        "state": "KS",
+        "zip": "67133",
         "country": "US"
       },
       "events": [
@@ -324,6 +335,17 @@
           "state": "IL",
           "zip": "61451",
           "country": "US"
+        },
+        {
+          "message": "On the way",
+          "status": "in_transit",
+          "statusDetail": "in_transit",
+          "datetime": "2026-07-25T22:03:45Z",
+          "datetimeLocal": "2026-07-25T17:03:45-05:00",
+          "city": "ROSE HILL",
+          "state": "KS",
+          "zip": "67133",
+          "country": "US"
         }
       ]
     },
@@ -337,7 +359,7 @@
       "statusDetail": "departed_facility",
       "estDelivery": "2026-07-31T00:00:00Z",
       "estDeliveryLocal": "2026-07-31",
-      "carrierUpdatedAt": "2026-07-25T20:38:43Z",
+      "carrierUpdatedAt": "2026-07-25T22:23:30Z",
       "signedBy": null,
       "weightOz": 80,
       "originLocation": "BROOKLYN NY US",
@@ -443,7 +465,7 @@
       "statusDetail": "departed_facility",
       "estDelivery": "2026-07-31T00:00:00Z",
       "estDeliveryLocal": "2026-07-31",
-      "carrierUpdatedAt": "2026-07-25T21:16:31Z",
+      "carrierUpdatedAt": "2026-07-25T22:15:34Z",
       "signedBy": null,
       "weightOz": 80,
       "originLocation": "BROOKLYN NY US",
@@ -549,7 +571,7 @@
       "statusDetail": "departed_facility",
       "estDelivery": "2026-07-31T00:00:00Z",
       "estDeliveryLocal": "2026-07-31",
-      "carrierUpdatedAt": "2026-07-25T20:45:25Z",
+      "carrierUpdatedAt": "2026-07-25T22:17:17Z",
       "signedBy": null,
       "weightOz": 80,
       "originLocation": "BROOKLYN NY US",
@@ -655,7 +677,7 @@
       "statusDetail": "departed_facility",
       "estDelivery": "2026-07-31T00:00:00Z",
       "estDeliveryLocal": "2026-07-31",
-      "carrierUpdatedAt": "2026-07-25T21:15:15Z",
+      "carrierUpdatedAt": "2026-07-25T21:51:54Z",
       "signedBy": null,
       "weightOz": 80,
       "originLocation": "BROOKLYN NY US",
