@@ -145,52 +145,106 @@ async function fetchTracker(pkg) {
   };
 }
 
-const config = JSON.parse(await readFile(CONFIG, "utf8"));
-const results = await Promise.all(
-  config.packages.map(async (pkg) => {
-    try {
-      return { ok: true, data: await fetchTracker(pkg) };
-    } catch (err) {
-      console.error(`FAIL ${pkg.nickname} (${pkg.trackingCode}): ${err.message}`);
-      return {
-        ok: false,
-        data: {
-          nickname: pkg.nickname,
-          trackingCode: pkg.trackingCode,
-          trackerUrl: pkg.trackerUrl,
-          status: "error",
-          error: err.message,
-          events: [],
-          lastEvent: null,
-        },
-      };
-    }
-  }),
-);
+const fedexUrl = (code) => `https://www.fedex.com/fedextrack/?trknbr=${code}`;
 
-const failed = results.filter((r) => !r.ok).length;
+// A package with no EasyPost tracker URL can't be live-scraped (FedEx blocks
+// direct tracking requests). Show it as a label with a FedEx link instead.
+function staticPackage(pkg) {
+  return {
+    nickname: pkg.nickname,
+    trackingCode: pkg.trackingCode,
+    trackerUrl: fedexUrl(pkg.trackingCode),
+    carrier: "FedEx",
+    service: "FEDEX_GROUND",
+    status: "pre_transit",
+    statusDetail: "label_created",
+    estDelivery: null,
+    estDeliveryLocal: null,
+    carrierUpdatedAt: null,
+    signedBy: null,
+    weightOz: null,
+    originLocation: null,
+    destinationLocation: null,
+    live: false,
+    events: [],
+    lastEvent: null,
+  };
+}
+
+async function fetchOne(pkg) {
+  if (!pkg.trackerUrl) return { live: false, ok: true, data: staticPackage(pkg) };
+  try {
+    return { live: true, ok: true, data: { ...(await fetchTracker(pkg)), live: true } };
+  } catch (err) {
+    console.error(`FAIL ${pkg.nickname} (${pkg.trackingCode}): ${err.message}`);
+    return {
+      live: true,
+      ok: false,
+      data: {
+        nickname: pkg.nickname,
+        trackingCode: pkg.trackingCode,
+        trackerUrl: pkg.trackerUrl,
+        status: "error",
+        error: err.message,
+        live: true,
+        events: [],
+        lastEvent: null,
+      },
+    };
+  }
+}
+
+const config = JSON.parse(await readFile(CONFIG, "utf8"));
+// Support both the batched config and the older single-batch shape.
+const batches = config.batches ?? [
+  {
+    id: "batch1",
+    title: "Our Boxes",
+    shipmentRequestId: config.shipmentRequestId,
+    origin: config.origin,
+    destination: config.destination,
+    packages: config.packages,
+  },
+];
+
+let liveTotal = 0;
+let liveFailed = 0;
+const outBatches = [];
+for (const batch of batches) {
+  const results = await Promise.all(batch.packages.map(fetchOne));
+  const failed = results.filter((r) => r.live && !r.ok).length;
+  liveTotal += results.filter((r) => r.live).length;
+  liveFailed += failed;
+  outBatches.push({
+    id: batch.id,
+    title: batch.title,
+    shipmentRequestId: batch.shipmentRequestId ?? null,
+    origin: batch.origin ?? null,
+    destination: batch.destination ?? null,
+    note: batch.note ?? null,
+    failedCount: failed,
+    packages: results.map((r) => r.data),
+  });
+}
 
 // Refuse to overwrite good data with a wholesale failure (network down, page redesign).
-if (failed === results.length) {
-  console.error(`All ${failed} lookups failed; leaving existing tracking.json untouched.`);
+// Static-only runs (no live lookups) are always allowed to write.
+if (liveTotal > 0 && liveFailed === liveTotal) {
+  console.error(`All ${liveTotal} live lookups failed; leaving existing tracking.json untouched.`);
   process.exit(1);
 }
 
 const payload = {
   generatedAt: new Date().toISOString(),
-  shipmentRequestId: config.shipmentRequestId ?? null,
-  origin: config.origin ?? null,
-  destination: config.destination ?? null,
-  failedCount: failed,
-  packages: results.map((r) => r.data),
+  failedCount: liveFailed,
+  batches: outBatches,
 };
 
 await mkdir(dirname(OUT), { recursive: true });
 await writeFile(OUT, JSON.stringify(payload, null, 2) + "\n");
 
-const summary = payload.packages
-  .map((p) => `${p.nickname}=${p.status}`)
-  .join("  ");
 console.log(`Wrote ${OUT}`);
-console.log(summary);
-if (failed) console.error(`${failed} of ${results.length} lookups failed.`);
+for (const b of outBatches) {
+  console.log(`[${b.title}] ` + b.packages.map((p) => `${p.nickname}=${p.status}`).join("  "));
+}
+if (liveFailed) console.error(`${liveFailed} of ${liveTotal} live lookups failed.`);

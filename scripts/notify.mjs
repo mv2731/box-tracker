@@ -37,8 +37,12 @@ const tracking = await readJson(DATA);
 const state = await readJson(STATE, {});
 const today = dayIn(TZ);
 
+// Flatten packages across batches; tag each with its batch title for clear wording.
+const allPackages = (tracking.batches ?? [{ title: null, packages: tracking.packages ?? [] }])
+  .flatMap((b) => b.packages.map((p) => ({ ...p, batchTitle: b.title })));
+
 const pending = [];
-for (const p of tracking.packages) {
+for (const p of allPackages) {
   if (p.status === "error") continue;
   const seen = (state[p.trackingCode] ??= {});
   const etaDay = p.estDeliveryLocal || (p.estDelivery || "").slice(0, 10) || null;

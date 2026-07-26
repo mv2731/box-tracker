@@ -18,6 +18,21 @@ No API key is involved. The EasyPost tracking pages server-render the full track
 object (status, estimated delivery, and every carrier scan) into the page's
 Next.js payload, so the script parses it straight out of the HTML.
 
+## Batches
+
+`packages.json` groups boxes into batches, each rendered as its own section:
+
+- A package with a `trackerUrl` (an EasyPost public tracking link) is **live** —
+  scraped every run for status, ETA, and scan history.
+- A package with only a `trackingCode` and no `trackerUrl` is **label-only** — it
+  shows "Label created" and links to `fedex.com` for live status. FedEx blocks
+  direct tracking requests, so there is no way to scrape their status here; the
+  EasyPost link is what makes a batch live.
+
+To upgrade a label-only batch to live, add each box's EasyPost `trackerUrl` (from
+that batch's "Desktop Shipping - Request Update" email) to its entry in
+`packages.json` and push.
+
 A GitHub Actions workflow re-runs the script every 30 minutes and commits the JSON
 when anything changed. GitHub Pages serves `docs/` from `main`, so a committed
 change is live within a minute or so.
