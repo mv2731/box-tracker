@@ -8,94 +8,108 @@
 <style>
   :root {
     color-scheme: light;
-    --page:           #fbf7f1;
+    --page:           #f6f6f7;
     --surface:        #ffffff;
-    --text-primary:   #221f1b;
-    --text-secondary: #5b554c;
-    --muted:          #918a7e;
-    --grid:           #ece5da;
-    --border:         rgba(34,31,27,0.10);
+    --text-primary:   #17181c;
+    --text-secondary: #55575e;
+    --muted:          #8b8d95;
+    --grid:           #ececee;
+    --border:         rgba(20,22,28,0.09);
     --progress:       #2a78d6;
     --good:           #0ca30c;
     --critical:       #d03b3b;
-    --shadow:         0 1px 2px rgba(80,60,40,0.05), 0 6px 18px rgba(80,60,40,0.06);
-
-    /* header illustration, daytime */
-    --sky-1: #cfeafc;  --sky-2: #ffe7c9;   --sun: #ffcf5c;
-    --cloud: #ffffff;  --ground: #cfe9c0;  --hill: #b7ddaa;
-    --brick-1: #dd9068; --brick-2: #c8764f; --brick-3: #e5a67e;
-    --brick-trim: #b4634a; --window: #ffe6a1; --door: #8c5237;
-    --route: rgba(255,255,255,0.95);
-    --truck-body: #fdfaf4; --truck-cab: #ef8a5e; --truck-glass: #c2e4f6;
-    --wheel-hub: #fdfaf4; --ink: #3d3730;
-    --box-face: #e9bb84; --box-face-2: #ddaa72; --box-lid: #d5a061; --box-tape: #f7ead3;
-    --trunk: #a9784f; --frond: #55b365; --coconut: #7d5a3c;
-    --star-opacity: 0; --sun-opacity: 1;
+    --shadow:         0 1px 2px rgba(15,18,26,0.04);
+    --shadow-lift:    0 2px 4px rgba(15,18,26,0.05), 0 10px 24px rgba(15,18,26,0.06);
+    --hero-1:         #eef1f6;
+    --hero-2:         #f4f0f2;
+    --rail:           #d9dbe0;
   }
   @media (prefers-color-scheme: dark) {
     :root:where(:not([data-theme="light"])) {
       color-scheme: dark;
-      --page:           #100f0e;
-      --surface:        #1c1b19;
-      --text-primary:   #f7f4ef;
-      --text-secondary: #c6bfb3;
-      --muted:          #8e887d;
-      --grid:           #302e2a;
-      --border:         rgba(255,255,255,0.10);
+      --page:           #0c0d10;
+      --surface:        #17181c;
+      --text-primary:   #f4f4f6;
+      --text-secondary: #b6b8c0;
+      --muted:          #82858f;
+      --grid:           #26282e;
+      --border:         rgba(255,255,255,0.08);
       --progress:       #3987e5;
       --shadow:         none;
-
-      /* header illustration, dusk */
-      --sky-1: #1b2444;  --sky-2: #462f4d;  --sun: transparent;
-      --cloud: rgba(255,255,255,0.09); --ground: #23301f; --hill: #2b3b2a;
-      --brick-1: #7d4d3a; --brick-2: #68402f; --brick-3: #8a5741;
-      --brick-trim: #5c382c; --window: #ffd98a; --door: #462c21;
-      --route: rgba(255,255,255,0.42);
-      --truck-body: #efe9df; --truck-cab: #d9764c; --truck-glass: #8fb9cf;
-      --wheel-hub: #efe9df; --ink: #23211d;
-      --box-face: #c39a68; --box-face-2: #b78c5c; --box-lid: #a97c4c; --box-tape: #e0cba9;
-      --trunk: #7c573a; --frond: #3f8a4c; --coconut: #5d4430;
-      --star-opacity: 1; --sun-opacity: 0;
+      --shadow-lift:    0 0 0 1px rgba(255,255,255,0.04);
+      --hero-1:         #171a24;
+      --hero-2:         #201a26;
+      --rail:           #34363e;
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
-    --page:           #100f0e;
-    --surface:        #1c1b19;
-    --text-primary:   #f7f4ef;
-    --text-secondary: #c6bfb3;
-    --muted:          #8e887d;
-    --grid:           #302e2a;
-    --border:         rgba(255,255,255,0.10);
+    --page:           #0c0d10;
+    --surface:        #17181c;
+    --text-primary:   #f4f4f6;
+    --text-secondary: #b6b8c0;
+    --muted:          #82858f;
+    --grid:           #26282e;
+    --border:         rgba(255,255,255,0.08);
     --progress:       #3987e5;
     --shadow:         none;
-
-    --sky-1: #1b2444;  --sky-2: #462f4d;  --sun: transparent;
-    --cloud: rgba(255,255,255,0.09); --ground: #23301f; --hill: #2b3b2a;
-    --brick-1: #7d4d3a; --brick-2: #68402f; --brick-3: #8a5741;
-    --brick-trim: #5c382c; --window: #ffd98a; --door: #462c21;
-    --route: rgba(255,255,255,0.42);
-    --truck-body: #efe9df; --truck-cab: #d9764c; --truck-glass: #8fb9cf;
-    --wheel-hub: #efe9df; --ink: #23211d;
-    --box-face: #c39a68; --box-face-2: #b78c5c; --box-lid: #a97c4c; --box-tape: #e0cba9;
-    --trunk: #7c573a; --frond: #3f8a4c; --coconut: #5d4430;
-    --star-opacity: 1; --sun-opacity: 0;
+    --shadow-lift:    0 0 0 1px rgba(255,255,255,0.04);
+    --hero-1:         #171a24;
+    --hero-2:         #201a26;
+    --rail:           #34363e;
   }
 
-  /* ---- header illustration ---- */
+  /* ---- journey header ---- */
   .hero {
-    border-radius: 18px; overflow: hidden; margin-bottom: 20px;
-    box-shadow: var(--shadow); border: 1px solid var(--border);
-    aspect-ratio: 1000 / 250;
+    position: relative;
+    border-radius: 16px; overflow: hidden;
+    border: 1px solid var(--border); box-shadow: var(--shadow);
+    background: linear-gradient(120deg, var(--hero-1), var(--hero-2));
+    padding: 26px 30px 30px;
+    margin-bottom: 22px;
   }
-  .hero svg { display: block; width: 100%; height: 100%; }
-  .hero .sun { opacity: var(--sun-opacity); }
-  .hero .stars { opacity: var(--star-opacity); }
-  .hero .route-line { animation: roll 2.4s linear infinite; }
-  @keyframes roll { to { stroke-dashoffset: -18; } }
-  @media (prefers-reduced-motion: reduce) {
-    .hero .route-line { animation: none; }
+  .hero .masthead {
+    display: flex; align-items: flex-start; justify-content: space-between;
+    gap: 16px; margin-bottom: 26px;
   }
+  .hero h1 { font-size: 1.7rem; margin: 0; letter-spacing: -0.03em; font-weight: 680; }
+  .hero .updated { color: var(--muted); font-size: 0.8rem; margin: 5px 0 0; }
+
+  .rail {
+    position: relative; height: 34px; margin: 0 6px;
+  }
+  .rail .track {
+    position: absolute; top: 50%; left: 0; right: 0; height: 2px;
+    transform: translateY(-50%); background: var(--rail); border-radius: 2px;
+  }
+  .rail .track .fill {
+    position: absolute; top: 0; left: 0; height: 100%;
+    background: var(--progress); border-radius: 2px;
+    transition: width 0.6s ease;
+  }
+  .rail .pip {
+    position: absolute; top: 50%; width: 9px; height: 9px; border-radius: 50%;
+    transform: translate(-50%, -50%); background: var(--progress);
+    box-shadow: 0 0 0 3px var(--surface);
+    transition: left 0.6s ease;
+  }
+  .rail .pip.done { background: var(--good); }
+  .rail .pip.bad  { background: var(--critical); }
+  .rail .pip.wait { background: var(--muted); }
+  .rail .cap {
+    position: absolute; top: 50%; width: 11px; height: 11px; border-radius: 50%;
+    transform: translate(-50%, -50%); background: var(--surface);
+    border: 2px solid var(--rail);
+  }
+  .rail .cap.start { left: 0; }
+  .rail .cap.end { left: 100%; }
+  .ends {
+    display: flex; justify-content: space-between; margin-top: 10px;
+    font-size: 0.86rem;
+  }
+  .ends .place { font-weight: 620; color: var(--text-primary); }
+  .ends .sub { font-size: 0.76rem; color: var(--muted); margin-top: 1px; }
+  .ends .to { text-align: right; }
 
   * { box-sizing: border-box; }
   body {
@@ -106,42 +120,33 @@
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
-
-  header { margin-bottom: 28px; }
-  h1 { font-size: 2rem; margin: 0 0 6px; letter-spacing: -0.025em; }
-  .route {
-    color: var(--text-secondary); font-size: 0.95rem; margin: 0 0 4px;
-    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-  }
-  .route .arrow { color: var(--muted); }
-  .updated { color: var(--muted); font-size: 0.82rem; margin: 0; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 30px 20px 64px; }
 
   /* ---- summary tiles ---- */
   .tiles {
-    display: grid; gap: 12px; margin: 24px 0 28px;
+    display: grid; gap: 10px; margin: 0 0 26px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   .tile {
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: 14px; padding: 14px 16px; box-shadow: var(--shadow);
+    border-radius: 12px; padding: 15px 16px; box-shadow: var(--shadow);
   }
   .tile .label {
-    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
-    color: var(--muted); margin-bottom: 6px;
+    font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em;
+    color: var(--muted); margin-bottom: 7px;
   }
-  .tile .value { font-size: 1.65rem; font-weight: 650; letter-spacing: -0.02em; }
-  .tile .sub { font-size: 0.82rem; color: var(--text-secondary); margin-top: 2px; }
+  .tile .value { font-size: 1.6rem; font-weight: 660; letter-spacing: -0.02em; }
+  .tile .sub { font-size: 0.8rem; color: var(--text-secondary); margin-top: 3px; }
 
   /* ---- cards ---- */
-  .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+  .cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
   .card {
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: 16px; padding: 18px; box-shadow: var(--shadow);
+    border-radius: 14px; padding: 18px; box-shadow: var(--shadow);
     display: flex; flex-direction: column; gap: 14px;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition: box-shadow 0.16s ease, transform 0.16s ease, border-color 0.16s ease;
   }
-  .card:hover { transform: translateY(-2px); box-shadow: 0 3px 6px rgba(80,60,40,0.07), 0 12px 28px rgba(80,60,40,0.09); }
+  .card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); border-color: transparent; }
   @media (prefers-reduced-motion: reduce) { .card, .card:hover { transition: none; transform: none; } }
   .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
   .nickname { font-size: 1.1rem; font-weight: 650; margin: 0; }
@@ -233,147 +238,28 @@
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <div class="hero">
-      <svg viewBox="0 0 1000 250" role="img" aria-label="Illustration of boxes travelling from Brooklyn brownstones to California palm trees" preserveAspectRatio="xMidYMid meet">
-        <defs>
-          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="var(--sky-1)"/>
-            <stop offset="100%" stop-color="var(--sky-2)"/>
-          </linearGradient>
-          <clipPath id="round"><rect x="0" y="0" width="1000" height="250" rx="18"/></clipPath>
-        </defs>
-
-        <g clip-path="url(#round)">
-          <rect width="1000" height="250" fill="url(#sky)"/>
-
-          <!-- sun by day, moon and stars by night -->
-          <circle class="sun" cx="828" cy="58" r="27" fill="var(--sun)"/>
-          <g class="stars" fill="#fff8e7">
-            <circle cx="120" cy="42" r="2"/><circle cx="250" cy="28" r="1.6"/>
-            <circle cx="410" cy="52" r="2.2"/><circle cx="560" cy="30" r="1.5"/>
-            <circle cx="690" cy="46" r="2"/><circle cx="930" cy="70" r="1.7"/>
-            <circle cx="350" cy="88" r="1.4"/><circle cx="620" cy="92" r="1.5"/>
-          </g>
-
-          <!-- clouds -->
-          <g fill="var(--cloud)">
-            <g transform="translate(150 62)">
-              <rect x="0" y="8" width="86" height="20" rx="10"/>
-              <circle cx="26" cy="12" r="15"/><circle cx="52" cy="15" r="12"/>
-            </g>
-            <g transform="translate(560 44)" opacity="0.85">
-              <rect x="0" y="8" width="70" height="17" rx="8.5"/>
-              <circle cx="22" cy="11" r="13"/><circle cx="46" cy="13" r="10"/>
-            </g>
-          </g>
-
-          <!-- ground -->
-          <rect y="196" width="1000" height="54" fill="var(--ground)"/>
-          <ellipse cx="880" cy="205" rx="180" ry="26" fill="var(--hill)"/>
-
-          <!-- Brooklyn brownstones -->
-          <g class="city">
-            <g>
-              <rect x="52" y="96" width="66" height="102" rx="6" fill="var(--brick-1)"/>
-              <rect x="46" y="88" width="78" height="14" rx="5" fill="var(--brick-trim)"/>
-              <g fill="var(--window)"><rect x="64" y="112" width="16" height="20" rx="3"/><rect x="90" y="112" width="16" height="20" rx="3"/><rect x="64" y="146" width="16" height="20" rx="3"/><rect x="90" y="146" width="16" height="20" rx="3"/></g>
-              <rect x="76" y="176" width="20" height="22" rx="4" fill="var(--door)"/>
-            </g>
-            <g>
-              <rect x="132" y="72" width="60" height="126" rx="6" fill="var(--brick-2)"/>
-              <rect x="126" y="64" width="72" height="14" rx="5" fill="var(--brick-trim)"/>
-              <g fill="var(--window)"><rect x="144" y="90" width="15" height="19" rx="3"/><rect x="167" y="90" width="15" height="19" rx="3"/><rect x="144" y="122" width="15" height="19" rx="3"/><rect x="167" y="122" width="15" height="19" rx="3"/></g>
-              <rect x="152" y="176" width="20" height="22" rx="4" fill="var(--door)"/>
-            </g>
-            <g>
-              <rect x="206" y="110" width="58" height="88" rx="6" fill="var(--brick-3)"/>
-              <rect x="200" y="102" width="70" height="13" rx="5" fill="var(--brick-trim)"/>
-              <g fill="var(--window)"><rect x="218" y="126" width="15" height="18" rx="3"/><rect x="240" y="126" width="15" height="18" rx="3"/></g>
-              <rect x="226" y="176" width="20" height="22" rx="4" fill="var(--door)"/>
-            </g>
-          </g>
-
-          <!-- dashed route -->
-          <path class="route-line" d="M 285 172 Q 520 78 760 172" fill="none" stroke="var(--route)"
-                stroke-width="4" stroke-linecap="round" stroke-dasharray="2 16"/>
-
-          <!-- little truck carrying a box, riding the route -->
-          <g transform="translate(468 96)">
-            <g transform="translate(14 -26)">
-              <rect x="0" y="0" width="34" height="30" rx="5" fill="var(--box-face)"/>
-              <rect x="0" y="0" width="34" height="9" rx="4" fill="var(--box-lid)"/>
-              <path d="M17 0 v30" stroke="var(--box-tape)" stroke-width="3"/>
-              <circle cx="10" cy="18" r="1.9" fill="var(--ink)"/>
-              <circle cx="24" cy="18" r="1.9" fill="var(--ink)"/>
-              <path d="M11 24 q6 5 12 0" stroke="var(--ink)" stroke-width="2" fill="none" stroke-linecap="round"/>
-            </g>
-            <rect x="0" y="4" width="62" height="34" rx="7" fill="var(--truck-body)"/>
-            <path d="M62 14 h18 l14 15 v9 h-32 z" fill="var(--truck-cab)"/>
-            <rect x="66" y="17" width="16" height="12" rx="3" fill="var(--truck-glass)"/>
-            <circle cx="18" cy="42" r="9" fill="var(--ink)"/><circle cx="18" cy="42" r="3.6" fill="var(--wheel-hub)"/>
-            <circle cx="76" cy="42" r="9" fill="var(--ink)"/><circle cx="76" cy="42" r="3.6" fill="var(--wheel-hub)"/>
-          </g>
-
-          <!-- California palms -->
-          <g class="palms">
-            <g transform="translate(806 92)">
-              <path d="M10 106 q-7 -56 3 -84" stroke="var(--trunk)" stroke-width="9" fill="none" stroke-linecap="round"/>
-              <g transform="translate(13 22)" fill="var(--frond)">
-                <g>
-                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(-34)"/>
-                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(3)"/>
-                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(40)"/>
-                </g>
-                <g transform="scale(-1,1)">
-                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(-30)"/>
-                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(6)"/>
-                  <path d="M0 0 Q20 -7 37 7 Q18 -1 0 4 Z" transform="rotate(43)"/>
-                </g>
-              </g>
-              <circle cx="13" cy="22" r="4.5" fill="var(--coconut)"/>
-            </g>
-            <g transform="translate(892 116)">
-              <path d="M8 82 q-6 -44 2 -64" stroke="var(--trunk)" stroke-width="7" fill="none" stroke-linecap="round"/>
-              <g transform="translate(10 18)" fill="var(--frond)">
-                <g>
-                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(-36)"/>
-                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(4)"/>
-                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(42)"/>
-                </g>
-                <g transform="scale(-1,1)">
-                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(-32)"/>
-                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(7)"/>
-                  <path d="M0 0 Q16 -6 30 6 Q15 -1 0 3 Z" transform="rotate(45)"/>
-                </g>
-              </g>
-              <circle cx="10" cy="18" r="3.6" fill="var(--coconut)"/>
-            </g>
-          </g>
-
-          <!-- boxes waiting at the destination -->
-          <g transform="translate(700 152)">
-            <rect x="0" y="18" width="40" height="30" rx="5" fill="var(--box-face)"/>
-            <rect x="0" y="18" width="40" height="9" rx="4" fill="var(--box-lid)"/>
-            <path d="M20 18 v30" stroke="var(--box-tape)" stroke-width="3"/>
-            <rect x="26" y="0" width="30" height="24" rx="5" fill="var(--box-face-2)"/>
-            <rect x="26" y="0" width="30" height="7" rx="3.5" fill="var(--box-lid)"/>
-          </g>
-        </g>
-      </svg>
+  <header class="hero">
+    <div class="masthead">
+      <div>
+        <h1>Our Boxes</h1>
+        <p class="updated" id="updated">Loading…</p>
+      </div>
+      <button class="toggle" id="viewToggle" aria-pressed="false">Table view</button>
     </div>
-    <h1>Our Boxes</h1>
-    <p class="route" id="route"></p>
-    <p class="updated" id="updated">Loading…</p>
+    <div class="rail" id="rail" role="img" aria-label="Shipment progress">
+      <div class="track"><div class="fill" id="railFill"></div></div>
+      <div class="cap start"></div>
+      <div class="cap end"></div>
+    </div>
+    <div class="ends">
+      <div class="from"><div class="place" id="fromPlace"></div><div class="sub" id="fromSub"></div></div>
+      <div class="to"><div class="place" id="toPlace"></div><div class="sub" id="toSub"></div></div>
+    </div>
   </header>
 
   <div id="banner"></div>
 
   <section class="tiles" id="tiles" aria-label="Summary"></section>
-
-  <div class="toolbar">
-    <button class="toggle" id="viewToggle" aria-pressed="false">Table view</button>
-  </div>
 
   <section class="cards" id="cards" aria-label="Packages"></section>
 
@@ -573,10 +459,53 @@ function tableHtml(d) {
   }).join("");
 }
 
+// Percent along the rail for each pipeline stage.
+const STAGE_POS = { "-1": 8, 0: 8, 1: 40, 2: 72, 3: 98 };
+
+function buildJourney(d) {
+  const ps = d.packages;
+  document.getElementById("fromPlace").textContent = d.origin || "Origin";
+  document.getElementById("toPlace").textContent = d.destination || "Destination";
+  document.getElementById("fromSub").textContent =
+    ps.length === 1 ? "1 box" : `${ps.length} boxes`;
+
+  const delivered = ps.filter((p) => p.status === "delivered").length;
+  const etas = ps.map((p) => p.estDeliveryLocal || (p.estDelivery || "").slice(0, 10)).filter(Boolean);
+  const lastEta = etas.length ? [...etas].sort().at(-1) : null;
+  document.getElementById("toSub").textContent =
+    delivered === ps.length ? "All arrived"
+      : lastEta ? "By " + new Date(lastEta + "T12:00:00").toLocaleDateString(undefined, { month: "short", day: "numeric" })
+      : "ETA pending";
+
+  // Group boxes by stage so a shared stage becomes a small cluster of pips, not one dot.
+  const groups = {};
+  ps.forEach((p) => {
+    const st = meta(p.status).stage;
+    (groups[st] ??= []).push(p);
+  });
+
+  const rail = document.getElementById("rail");
+  rail.querySelectorAll(".pip").forEach((n) => n.remove());
+  let sum = 0;
+  Object.entries(groups).forEach(([st, boxes]) => {
+    const base = STAGE_POS[st] ?? 8;
+    boxes.forEach((p, i) => {
+      const offset = (i - (boxes.length - 1) / 2) * 2.6;
+      const pos = Math.max(3, Math.min(99, base + offset));
+      sum += base;
+      const pip = document.createElement("div");
+      const s = meta(p.status).stage;
+      pip.className = "pip" + (s === 3 ? " done" : s === -1 ? " bad" : s === 0 ? " wait" : "");
+      pip.style.left = pos + "%";
+      pip.title = `${p.nickname}: ${meta(p.status).label}`;
+      rail.appendChild(pip);
+    });
+  });
+  document.getElementById("railFill").style.width = (ps.length ? sum / ps.length : 0) + "%";
+}
+
 function render(d) {
-  document.getElementById("route").innerHTML = d.origin && d.destination
-    ? `<span>${d.origin}</span><span class="arrow">to</span><span>${d.destination}</span>`
-    : "";
+  buildJourney(d);
 
   const gen = d.generatedAt ? new Date(d.generatedAt) : null;
   document.getElementById("updated").textContent = gen
