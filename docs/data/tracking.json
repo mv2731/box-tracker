@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T22:29:36.095Z",
+  "generatedAt": "2026-07-26T23:30:28.502Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,7 +21,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-07-28T00:00:00Z",
           "estDeliveryLocal": "2026-07-28",
-          "carrierUpdatedAt": "2026-07-26T22:23:17Z",
+          "carrierUpdatedAt": "2026-07-26T23:28:15Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -30,11 +30,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-07-26T10:24:54Z",
-            "datetimeLocal": "2026-07-26T04:24:54-06:00",
-            "city": "ENCINO",
-            "state": "NM",
-            "zip": "88321",
+            "datetime": "2026-07-26T22:56:07Z",
+            "datetimeLocal": "2026-07-26T15:56:07-07:00",
+            "city": "WILLIAMS",
+            "state": "AZ",
+            "zip": "86046",
             "country": "US"
           },
           "events": [
@@ -191,6 +191,17 @@
               "state": "NM",
               "zip": "88321",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-07-26T22:56:07Z",
+              "datetimeLocal": "2026-07-26T15:56:07-07:00",
+              "city": "WILLIAMS",
+              "state": "AZ",
+              "zip": "86046",
+              "country": "US"
             }
           ],
           "live": true
@@ -205,7 +216,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-07-28T00:00:00Z",
           "estDeliveryLocal": "2026-07-28",
-          "carrierUpdatedAt": "2026-07-26T22:27:48Z",
+          "carrierUpdatedAt": "2026-07-26T23:19:01Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -214,11 +225,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-07-26T10:24:54Z",
-            "datetimeLocal": "2026-07-26T04:24:54-06:00",
-            "city": "ENCINO",
-            "state": "NM",
-            "zip": "88321",
+            "datetime": "2026-07-26T22:56:07Z",
+            "datetimeLocal": "2026-07-26T15:56:07-07:00",
+            "city": "WILLIAMS",
+            "state": "AZ",
+            "zip": "86046",
             "country": "US"
           },
           "events": [
@@ -375,6 +386,17 @@
               "state": "NM",
               "zip": "88321",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-07-26T22:56:07Z",
+              "datetimeLocal": "2026-07-26T15:56:07-07:00",
+              "city": "WILLIAMS",
+              "state": "AZ",
+              "zip": "86046",
+              "country": "US"
             }
           ],
           "live": true
@@ -389,7 +411,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-07-31T00:00:00Z",
           "estDeliveryLocal": "2026-07-31",
-          "carrierUpdatedAt": "2026-07-26T21:57:35Z",
+          "carrierUpdatedAt": "2026-07-26T23:12:04Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -496,7 +518,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-07-31T00:00:00Z",
           "estDeliveryLocal": "2026-07-31",
-          "carrierUpdatedAt": "2026-07-26T22:08:37Z",
+          "carrierUpdatedAt": "2026-07-26T23:30:05Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -603,7 +625,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-07-31T00:00:00Z",
           "estDeliveryLocal": "2026-07-31",
-          "carrierUpdatedAt": "2026-07-26T22:29:22Z",
+          "carrierUpdatedAt": "2026-07-26T23:29:46Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -710,7 +732,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-07-31T00:00:00Z",
           "estDeliveryLocal": "2026-07-31",
-          "carrierUpdatedAt": "2026-07-26T22:06:07Z",
+          "carrierUpdatedAt": "2026-07-26T23:27:29Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
