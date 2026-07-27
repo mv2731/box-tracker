@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T10:14:36.497Z",
+  "generatedAt": "2026-07-27T13:24:04.358Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,7 +21,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-07-28T00:00:00Z",
           "estDeliveryLocal": "2026-07-28",
-          "carrierUpdatedAt": "2026-07-27T10:03:52Z",
+          "carrierUpdatedAt": "2026-07-27T12:43:25Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -30,11 +30,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-07-26T22:56:07Z",
-            "datetimeLocal": "2026-07-26T15:56:07-07:00",
-            "city": "WILLIAMS",
-            "state": "AZ",
-            "zip": "86046",
+            "datetime": "2026-07-27T11:06:04Z",
+            "datetimeLocal": "2026-07-27T04:06:04-07:00",
+            "city": "BAKERSFIELD",
+            "state": "CA",
+            "zip": "93306",
             "country": "US"
           },
           "events": [
@@ -202,6 +202,17 @@
               "state": "AZ",
               "zip": "86046",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-07-27T11:06:04Z",
+              "datetimeLocal": "2026-07-27T04:06:04-07:00",
+              "city": "BAKERSFIELD",
+              "state": "CA",
+              "zip": "93306",
+              "country": "US"
             }
           ],
           "live": true
@@ -216,7 +227,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-07-28T00:00:00Z",
           "estDeliveryLocal": "2026-07-28",
-          "carrierUpdatedAt": "2026-07-27T09:42:51Z",
+          "carrierUpdatedAt": "2026-07-27T13:12:07Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -225,11 +236,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-07-26T22:56:07Z",
-            "datetimeLocal": "2026-07-26T15:56:07-07:00",
-            "city": "WILLIAMS",
-            "state": "AZ",
-            "zip": "86046",
+            "datetime": "2026-07-27T11:06:04Z",
+            "datetimeLocal": "2026-07-27T04:06:04-07:00",
+            "city": "BAKERSFIELD",
+            "state": "CA",
+            "zip": "93306",
             "country": "US"
           },
           "events": [
@@ -397,6 +408,17 @@
               "state": "AZ",
               "zip": "86046",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-07-27T11:06:04Z",
+              "datetimeLocal": "2026-07-27T04:06:04-07:00",
+              "city": "BAKERSFIELD",
+              "state": "CA",
+              "zip": "93306",
+              "country": "US"
             }
           ],
           "live": true
@@ -411,7 +433,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-07-31T00:00:00Z",
           "estDeliveryLocal": "2026-07-31",
-          "carrierUpdatedAt": "2026-07-27T10:14:09Z",
+          "carrierUpdatedAt": "2026-07-27T13:21:09Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -518,7 +540,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-07-31T00:00:00Z",
           "estDeliveryLocal": "2026-07-31",
-          "carrierUpdatedAt": "2026-07-27T10:07:01Z",
+          "carrierUpdatedAt": "2026-07-27T13:04:03Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -625,10 +647,10 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-07-31T00:00:00Z",
           "estDeliveryLocal": "2026-07-31",
-          "carrierUpdatedAt": "2026-07-27T10:01:13Z",
+          "carrierUpdatedAt": "2026-07-27T13:00:37Z",
           "signedBy": null,
-          "weightOz": null,
-          "originLocation": "NEW YORK NY, US, 10024",
+          "weightOz": 80,
+          "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
             "message": "Departed FedEx location",
@@ -732,7 +754,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-07-31T00:00:00Z",
           "estDeliveryLocal": "2026-07-31",
-          "carrierUpdatedAt": "2026-07-27T10:13:19Z",
+          "carrierUpdatedAt": "2026-07-27T13:18:23Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
