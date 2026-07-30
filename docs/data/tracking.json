@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T20:12:00.075Z",
+  "generatedAt": "2026-07-30T21:40:38.986Z",
   "failedCount": 0,
   "batches": [
     {
@@ -539,25 +539,25 @@
           "trackerUrl": "https://track.easypost.com/djE6dHJrX2Q2NGVlNmEzYjUwNDRkMDFhYjZiMTExNzk3ZTk1MzQw",
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
-          "status": "out_for_delivery",
-          "statusDetail": "out_for_delivery",
-          "estDelivery": "2026-07-30T00:00:00Z",
+          "status": "delivered",
+          "statusDetail": "arrived_at_destination",
+          "estDelivery": "2026-07-30T20:17:50Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T20:11:52Z",
+          "carrierUpdatedAt": "2026-07-30T20:50:51Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On FedEx vehicle for delivery",
-            "status": "out_for_delivery",
-            "statusDetail": "out_for_delivery",
-            "datetime": "2026-07-30T15:28:00Z",
-            "datetimeLocal": "2026-07-30T08:28:00-07:00",
-            "city": "NEWARK",
-            "state": "CA",
-            "zip": "94560",
-            "country": "US"
+            "message": "Delivered ( Signature Service not requested.)",
+            "status": "delivered",
+            "statusDetail": "arrived_at_destination",
+            "datetime": "2026-07-30T20:19:38Z",
+            "datetimeLocal": "2026-07-30T13:19:38-07:00",
+            "city": null,
+            "state": null,
+            "zip": null,
+            "country": null
           },
           "events": [
             {
@@ -680,6 +680,28 @@
               "state": "CA",
               "zip": "94560",
               "country": "US"
+            },
+            {
+              "message": "Delivered (Left at garage. Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-07-30T20:17:50Z",
+              "datetimeLocal": "2026-07-30T13:17:50-07:00",
+              "city": "Sunnyvale",
+              "state": "CA",
+              "zip": "94086",
+              "country": "US"
+            },
+            {
+              "message": "Delivered ( Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-07-30T20:19:38Z",
+              "datetimeLocal": "2026-07-30T13:19:38-07:00",
+              "city": null,
+              "state": null,
+              "zip": null,
+              "country": null
             }
           ],
           "live": true
@@ -690,25 +712,25 @@
           "trackerUrl": "https://track.easypost.com/djE6dHJrXzk0MDAwMGNmNGMwNjQ3YjA5MjAwZThjMTdhYzM3NmFj",
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
-          "status": "out_for_delivery",
-          "statusDetail": "out_for_delivery",
-          "estDelivery": "2026-07-30T00:00:00Z",
+          "status": "delivered",
+          "statusDetail": "arrived_at_destination",
+          "estDelivery": "2026-07-30T20:17:50Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T20:09:44Z",
+          "carrierUpdatedAt": "2026-07-30T20:51:34Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On FedEx vehicle for delivery",
-            "status": "out_for_delivery",
-            "statusDetail": "out_for_delivery",
-            "datetime": "2026-07-30T15:27:00Z",
-            "datetimeLocal": "2026-07-30T08:27:00-07:00",
-            "city": "NEWARK",
-            "state": "CA",
-            "zip": "94560",
-            "country": "US"
+            "message": "Delivered ( Signature Service not requested.)",
+            "status": "delivered",
+            "statusDetail": "arrived_at_destination",
+            "datetime": "2026-07-30T20:19:38Z",
+            "datetimeLocal": "2026-07-30T13:19:38-07:00",
+            "city": null,
+            "state": null,
+            "zip": null,
+            "country": null
           },
           "events": [
             {
@@ -831,6 +853,28 @@
               "state": "CA",
               "zip": "94560",
               "country": "US"
+            },
+            {
+              "message": "Delivered (Left at garage. Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-07-30T20:17:50Z",
+              "datetimeLocal": "2026-07-30T13:17:50-07:00",
+              "city": "Sunnyvale",
+              "state": "CA",
+              "zip": "94086",
+              "country": "US"
+            },
+            {
+              "message": "Delivered ( Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-07-30T20:19:38Z",
+              "datetimeLocal": "2026-07-30T13:19:38-07:00",
+              "city": null,
+              "state": null,
+              "zip": null,
+              "country": null
             }
           ],
           "live": true
@@ -841,25 +885,25 @@
           "trackerUrl": "https://track.easypost.com/djE6dHJrXzkzMDc0ODdiMzY0MTQxNGY4YTMyMmIzY2NhNTE3NjBj",
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
-          "status": "out_for_delivery",
-          "statusDetail": "out_for_delivery",
-          "estDelivery": "2026-07-30T00:00:00Z",
+          "status": "delivered",
+          "statusDetail": "arrived_at_destination",
+          "estDelivery": "2026-07-30T20:17:50Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T20:11:02Z",
+          "carrierUpdatedAt": "2026-07-30T20:51:51Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On FedEx vehicle for delivery",
-            "status": "out_for_delivery",
-            "statusDetail": "out_for_delivery",
-            "datetime": "2026-07-30T15:31:00Z",
-            "datetimeLocal": "2026-07-30T08:31:00-07:00",
-            "city": "NEWARK",
-            "state": "CA",
-            "zip": "94560",
-            "country": "US"
+            "message": "Delivered ( Signature Service not requested.)",
+            "status": "delivered",
+            "statusDetail": "arrived_at_destination",
+            "datetime": "2026-07-30T20:19:38Z",
+            "datetimeLocal": "2026-07-30T13:19:38-07:00",
+            "city": null,
+            "state": null,
+            "zip": null,
+            "country": null
           },
           "events": [
             {
@@ -982,6 +1026,28 @@
               "state": "CA",
               "zip": "94560",
               "country": "US"
+            },
+            {
+              "message": "Delivered (Left at garage. Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-07-30T20:17:50Z",
+              "datetimeLocal": "2026-07-30T13:17:50-07:00",
+              "city": "Sunnyvale",
+              "state": "CA",
+              "zip": "94086",
+              "country": "US"
+            },
+            {
+              "message": "Delivered ( Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-07-30T20:19:38Z",
+              "datetimeLocal": "2026-07-30T13:19:38-07:00",
+              "city": null,
+              "state": null,
+              "zip": null,
+              "country": null
             }
           ],
           "live": true
@@ -992,24 +1058,24 @@
           "trackerUrl": "https://track.easypost.com/djE6dHJrX2E3ZGY3OTlhMWJlNzRjOGRhMzhkMjA3ZGUzMzQzMDAw",
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
-          "status": "out_for_delivery",
-          "statusDetail": "out_for_delivery",
-          "estDelivery": "2026-07-30T00:00:00Z",
+          "status": "delivered",
+          "statusDetail": "arrived_at_destination",
+          "estDelivery": "2026-07-30T20:17:50Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T20:11:47Z",
+          "carrierUpdatedAt": "2026-07-30T20:53:18Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On FedEx vehicle for delivery",
-            "status": "out_for_delivery",
-            "statusDetail": "out_for_delivery",
-            "datetime": "2026-07-30T15:22:00Z",
-            "datetimeLocal": "2026-07-30T08:22:00-07:00",
-            "city": "NEWARK",
+            "message": "Delivered (Left at garage. Signature Service not requested.)",
+            "status": "delivered",
+            "statusDetail": "arrived_at_destination",
+            "datetime": "2026-07-30T20:17:50Z",
+            "datetimeLocal": "2026-07-30T13:17:50-07:00",
+            "city": "Sunnyvale",
             "state": "CA",
-            "zip": "94560",
+            "zip": "94086",
             "country": "US"
           },
           "events": [
@@ -1132,6 +1198,17 @@
               "city": "NEWARK",
               "state": "CA",
               "zip": "94560",
+              "country": "US"
+            },
+            {
+              "message": "Delivered (Left at garage. Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-07-30T20:17:50Z",
+              "datetimeLocal": "2026-07-30T13:17:50-07:00",
+              "city": "Sunnyvale",
+              "state": "CA",
+              "zip": "94086",
               "country": "US"
             }
           ],
