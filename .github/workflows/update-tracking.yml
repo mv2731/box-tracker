@@ -42,6 +42,8 @@ jobs:
         run: node scripts/notify.mjs
 
       - name: Commit if changed
+        # Runs even when the email step failed, so a mail outage cannot freeze the site.
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
