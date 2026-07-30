@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:24:37.337Z",
+  "generatedAt": "2026-07-30T17:26:53.990Z",
   "failedCount": 0,
   "batches": [
     {
@@ -694,7 +694,7 @@
           "statusDetail": "out_for_delivery",
           "estDelivery": "2026-07-30T00:00:00Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T17:22:03Z",
+          "carrierUpdatedAt": "2026-07-30T17:26:02Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -845,7 +845,7 @@
           "statusDetail": "out_for_delivery",
           "estDelivery": "2026-07-30T00:00:00Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T17:23:40Z",
+          "carrierUpdatedAt": "2026-07-30T17:26:08Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
