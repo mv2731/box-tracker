@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T18:53:46.570Z",
+  "generatedAt": "2026-07-30T20:12:00.075Z",
   "failedCount": 0,
   "batches": [
     {
@@ -543,7 +543,7 @@
           "statusDetail": "out_for_delivery",
           "estDelivery": "2026-07-30T00:00:00Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T18:52:52Z",
+          "carrierUpdatedAt": "2026-07-30T20:11:52Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -694,7 +694,7 @@
           "statusDetail": "out_for_delivery",
           "estDelivery": "2026-07-30T00:00:00Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T18:52:10Z",
+          "carrierUpdatedAt": "2026-07-30T20:09:44Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -845,7 +845,7 @@
           "statusDetail": "out_for_delivery",
           "estDelivery": "2026-07-30T00:00:00Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T18:51:41Z",
+          "carrierUpdatedAt": "2026-07-30T20:11:02Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -996,7 +996,7 @@
           "statusDetail": "out_for_delivery",
           "estDelivery": "2026-07-30T00:00:00Z",
           "estDeliveryLocal": "2026-07-30",
-          "carrierUpdatedAt": "2026-07-30T18:52:28Z",
+          "carrierUpdatedAt": "2026-07-30T20:11:47Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
