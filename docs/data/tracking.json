@@ -1,7 +1,431 @@
 {
-  "generatedAt": "2026-08-09T18:28:24.676Z",
+  "generatedAt": "2026-08-09T18:33:27.832Z",
   "failedCount": 0,
   "batches": [
+    {
+      "id": "batch2",
+      "title": "Our second batch of boxes",
+      "shipmentRequestId": "674422",
+      "origin": "New York, NY",
+      "destination": "Sunnyvale, CA",
+      "note": null,
+      "failedCount": 0,
+      "packages": [
+        {
+          "nickname": "Box 1",
+          "trackingCode": "874861886038",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrX2Y2OGZiZDcyZTU5MTQzZjBhNGNlMDU1ZDViMjRlMjE4",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "pre_transit",
+          "statusDetail": "label_created",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
+          "signedBy": null,
+          "weightOz": 80,
+          "originLocation": "New York NY US",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "Shipment information sent to FedEx",
+            "status": "pre_transit",
+            "statusDetail": "label_created",
+            "datetime": "2026-07-24T18:40:00Z",
+            "datetimeLocal": "2026-07-24T14:40:00-04:00",
+            "city": null,
+            "state": null,
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        },
+        {
+          "nickname": "Box 2",
+          "trackingCode": "874861885866",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrX2I3NDI0NjAxODZmNTQ2YjY5N2I4NDU2YTI1YzJkOTNj",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "in_transit",
+          "statusDetail": "received_at_origin_facility",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
+          "signedBy": null,
+          "weightOz": 80,
+          "originLocation": "New York NY US",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+            "status": "in_transit",
+            "statusDetail": "received_at_origin_facility",
+            "datetime": "2026-08-09T18:20:00Z",
+            "datetimeLocal": "2026-08-09T14:20:00-04:00",
+            "city": "NEW YORK",
+            "state": "NY",
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            },
+            {
+              "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+              "status": "in_transit",
+              "statusDetail": "received_at_origin_facility",
+              "datetime": "2026-08-09T18:20:00Z",
+              "datetimeLocal": "2026-08-09T14:20:00-04:00",
+              "city": "NEW YORK",
+              "state": "NY",
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        },
+        {
+          "nickname": "Box 3",
+          "trackingCode": "874861886900",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrXzQzOGFlNjM4ZGE2ODRjN2Q4NTc4ZjE5NzZkYzY5NmVk",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "pre_transit",
+          "statusDetail": "label_created",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
+          "signedBy": null,
+          "weightOz": 80,
+          "originLocation": "New York NY US",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "Shipment information sent to FedEx",
+            "status": "pre_transit",
+            "statusDetail": "label_created",
+            "datetime": "2026-07-24T18:40:00Z",
+            "datetimeLocal": "2026-07-24T14:40:00-04:00",
+            "city": null,
+            "state": null,
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        },
+        {
+          "nickname": "Box 4",
+          "trackingCode": "874861887170",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrX2E2ZjA1YWUwZWU5MzRhMzU5Mzg2OTg1ZDc2YTRjMWE4",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "in_transit",
+          "statusDetail": "received_at_origin_facility",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
+          "signedBy": null,
+          "weightOz": 80,
+          "originLocation": "New York NY US",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+            "status": "in_transit",
+            "statusDetail": "received_at_origin_facility",
+            "datetime": "2026-08-09T18:20:00Z",
+            "datetimeLocal": "2026-08-09T14:20:00-04:00",
+            "city": "NEW YORK",
+            "state": "NY",
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            },
+            {
+              "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+              "status": "in_transit",
+              "statusDetail": "received_at_origin_facility",
+              "datetime": "2026-08-09T18:20:00Z",
+              "datetimeLocal": "2026-08-09T14:20:00-04:00",
+              "city": "NEW YORK",
+              "state": "NY",
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        },
+        {
+          "nickname": "Box 5",
+          "trackingCode": "874861887722",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrXzg0MWQyNTI5YjU5MjRmY2FiYTkwZGI4YzlmODZmYmRm",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "in_transit",
+          "statusDetail": "received_at_origin_facility",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
+          "signedBy": null,
+          "weightOz": 80,
+          "originLocation": "New York NY US",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+            "status": "in_transit",
+            "statusDetail": "received_at_origin_facility",
+            "datetime": "2026-08-09T18:20:00Z",
+            "datetimeLocal": "2026-08-09T14:20:00-04:00",
+            "city": "NEW YORK",
+            "state": "NY",
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            },
+            {
+              "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+              "status": "in_transit",
+              "statusDetail": "received_at_origin_facility",
+              "datetime": "2026-08-09T18:20:00Z",
+              "datetimeLocal": "2026-08-09T14:20:00-04:00",
+              "city": "NEW YORK",
+              "state": "NY",
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        },
+        {
+          "nickname": "Box 6",
+          "trackingCode": "874861886509",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrXzU0MWEzMWVhZWY5MDQ4ZjRiZmExNTQzODk2YjI3MGE3",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "pre_transit",
+          "statusDetail": "label_created",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:23:43Z",
+          "signedBy": null,
+          "weightOz": null,
+          "originLocation": "US, 10024",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "Shipment information sent to FedEx",
+            "status": "pre_transit",
+            "statusDetail": "label_created",
+            "datetime": "2026-07-24T18:40:00Z",
+            "datetimeLocal": "2026-07-24T14:40:00-04:00",
+            "city": null,
+            "state": null,
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        },
+        {
+          "nickname": "Box 7",
+          "trackingCode": "874861887549",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrX2U4MTY4N2NmZjc2ZDRkOGI4NWVlYzY0MzlmYWE2Y2Zi",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "pre_transit",
+          "statusDetail": "label_created",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
+          "signedBy": null,
+          "weightOz": 80,
+          "originLocation": "New York NY US",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "Shipment information sent to FedEx",
+            "status": "pre_transit",
+            "statusDetail": "label_created",
+            "datetime": "2026-07-24T18:40:00Z",
+            "datetimeLocal": "2026-07-24T14:40:00-04:00",
+            "city": null,
+            "state": null,
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        },
+        {
+          "nickname": "Box 8",
+          "trackingCode": "874861887160",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrX2VmZDkzZDAxZjA4MjQzODhhZTg3YjFjNWJjMThiYWZk",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "pre_transit",
+          "statusDetail": "label_created",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:16:00Z",
+          "signedBy": null,
+          "weightOz": 80,
+          "originLocation": "New York NY US",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "Shipment information sent to FedEx",
+            "status": "pre_transit",
+            "statusDetail": "label_created",
+            "datetime": "2026-07-24T18:40:00Z",
+            "datetimeLocal": "2026-07-24T14:40:00-04:00",
+            "city": null,
+            "state": null,
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        },
+        {
+          "nickname": "Box 9",
+          "trackingCode": "874861887387",
+          "trackerUrl": "https://track.easypost.com/djE6dHJrXzVmYTVlOGNlN2E0MDRlYjY5Yzc1YWYyZTFiZjAwMjY4",
+          "carrier": "FedEx",
+          "service": "FEDEX_GROUND",
+          "status": "in_transit",
+          "statusDetail": "received_at_origin_facility",
+          "estDelivery": null,
+          "estDeliveryLocal": null,
+          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
+          "signedBy": null,
+          "weightOz": 80,
+          "originLocation": "New York NY US",
+          "destinationLocation": "Sunnyvale CA US",
+          "lastEvent": {
+            "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+            "status": "in_transit",
+            "statusDetail": "received_at_origin_facility",
+            "datetime": "2026-08-09T18:20:00Z",
+            "datetimeLocal": "2026-08-09T14:20:00-04:00",
+            "city": "NEW YORK",
+            "state": "NY",
+            "zip": "10024",
+            "country": "US"
+          },
+          "events": [
+            {
+              "message": "Shipment information sent to FedEx",
+              "status": "pre_transit",
+              "statusDetail": "label_created",
+              "datetime": "2026-07-24T18:40:00Z",
+              "datetimeLocal": "2026-07-24T14:40:00-04:00",
+              "city": null,
+              "state": null,
+              "zip": "10024",
+              "country": "US"
+            },
+            {
+              "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
+              "status": "in_transit",
+              "statusDetail": "received_at_origin_facility",
+              "datetime": "2026-08-09T18:20:00Z",
+              "datetimeLocal": "2026-08-09T14:20:00-04:00",
+              "city": "NEW YORK",
+              "state": "NY",
+              "zip": "10024",
+              "country": "US"
+            }
+          ],
+          "live": true
+        }
+      ]
+    },
     {
       "id": "batch1",
       "title": "Our Boxes",
@@ -1209,430 +1633,6 @@
               "city": "Sunnyvale",
               "state": "CA",
               "zip": "94086",
-              "country": "US"
-            }
-          ],
-          "live": true
-        }
-      ]
-    },
-    {
-      "id": "batch2",
-      "title": "Our second batch of boxes",
-      "shipmentRequestId": "674422",
-      "origin": "New York, NY",
-      "destination": "Sunnyvale, CA",
-      "note": null,
-      "failedCount": 0,
-      "packages": [
-        {
-          "nickname": "Box 1",
-          "trackingCode": "874861886038",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrX2Y2OGZiZDcyZTU5MTQzZjBhNGNlMDU1ZDViMjRlMjE4",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "pre_transit",
-          "statusDetail": "label_created",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
-          "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "New York NY US",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "Shipment information sent to FedEx",
-            "status": "pre_transit",
-            "statusDetail": "label_created",
-            "datetime": "2026-07-24T18:40:00Z",
-            "datetimeLocal": "2026-07-24T14:40:00-04:00",
-            "city": null,
-            "state": null,
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            }
-          ],
-          "live": true
-        },
-        {
-          "nickname": "Box 2",
-          "trackingCode": "874861885866",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrX2I3NDI0NjAxODZmNTQ2YjY5N2I4NDU2YTI1YzJkOTNj",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "in_transit",
-          "statusDetail": "received_at_origin_facility",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
-          "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "New York NY US",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
-            "status": "in_transit",
-            "statusDetail": "received_at_origin_facility",
-            "datetime": "2026-08-09T18:20:00Z",
-            "datetimeLocal": "2026-08-09T14:20:00-04:00",
-            "city": "NEW YORK",
-            "state": "NY",
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            },
-            {
-              "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
-              "status": "in_transit",
-              "statusDetail": "received_at_origin_facility",
-              "datetime": "2026-08-09T18:20:00Z",
-              "datetimeLocal": "2026-08-09T14:20:00-04:00",
-              "city": "NEW YORK",
-              "state": "NY",
-              "zip": "10024",
-              "country": "US"
-            }
-          ],
-          "live": true
-        },
-        {
-          "nickname": "Box 3",
-          "trackingCode": "874861886900",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrXzQzOGFlNjM4ZGE2ODRjN2Q4NTc4ZjE5NzZkYzY5NmVk",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "pre_transit",
-          "statusDetail": "label_created",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
-          "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "New York NY US",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "Shipment information sent to FedEx",
-            "status": "pre_transit",
-            "statusDetail": "label_created",
-            "datetime": "2026-07-24T18:40:00Z",
-            "datetimeLocal": "2026-07-24T14:40:00-04:00",
-            "city": null,
-            "state": null,
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            }
-          ],
-          "live": true
-        },
-        {
-          "nickname": "Box 4",
-          "trackingCode": "874861887170",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrX2E2ZjA1YWUwZWU5MzRhMzU5Mzg2OTg1ZDc2YTRjMWE4",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "in_transit",
-          "statusDetail": "received_at_origin_facility",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
-          "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "New York NY US",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
-            "status": "in_transit",
-            "statusDetail": "received_at_origin_facility",
-            "datetime": "2026-08-09T18:20:00Z",
-            "datetimeLocal": "2026-08-09T14:20:00-04:00",
-            "city": "NEW YORK",
-            "state": "NY",
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            },
-            {
-              "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
-              "status": "in_transit",
-              "statusDetail": "received_at_origin_facility",
-              "datetime": "2026-08-09T18:20:00Z",
-              "datetimeLocal": "2026-08-09T14:20:00-04:00",
-              "city": "NEW YORK",
-              "state": "NY",
-              "zip": "10024",
-              "country": "US"
-            }
-          ],
-          "live": true
-        },
-        {
-          "nickname": "Box 5",
-          "trackingCode": "874861887722",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrXzg0MWQyNTI5YjU5MjRmY2FiYTkwZGI4YzlmODZmYmRm",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "in_transit",
-          "statusDetail": "received_at_origin_facility",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
-          "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "New York NY US",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
-            "status": "in_transit",
-            "statusDetail": "received_at_origin_facility",
-            "datetime": "2026-08-09T18:20:00Z",
-            "datetimeLocal": "2026-08-09T14:20:00-04:00",
-            "city": "NEW YORK",
-            "state": "NY",
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            },
-            {
-              "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
-              "status": "in_transit",
-              "statusDetail": "received_at_origin_facility",
-              "datetime": "2026-08-09T18:20:00Z",
-              "datetimeLocal": "2026-08-09T14:20:00-04:00",
-              "city": "NEW YORK",
-              "state": "NY",
-              "zip": "10024",
-              "country": "US"
-            }
-          ],
-          "live": true
-        },
-        {
-          "nickname": "Box 6",
-          "trackingCode": "874861886509",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrXzU0MWEzMWVhZWY5MDQ4ZjRiZmExNTQzODk2YjI3MGE3",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "pre_transit",
-          "statusDetail": "label_created",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:23:43Z",
-          "signedBy": null,
-          "weightOz": null,
-          "originLocation": "US, 10024",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "Shipment information sent to FedEx",
-            "status": "pre_transit",
-            "statusDetail": "label_created",
-            "datetime": "2026-07-24T18:40:00Z",
-            "datetimeLocal": "2026-07-24T14:40:00-04:00",
-            "city": null,
-            "state": null,
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            }
-          ],
-          "live": true
-        },
-        {
-          "nickname": "Box 7",
-          "trackingCode": "874861887549",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrX2U4MTY4N2NmZjc2ZDRkOGI4NWVlYzY0MzlmYWE2Y2Zi",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "pre_transit",
-          "statusDetail": "label_created",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
-          "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "New York NY US",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "Shipment information sent to FedEx",
-            "status": "pre_transit",
-            "statusDetail": "label_created",
-            "datetime": "2026-07-24T18:40:00Z",
-            "datetimeLocal": "2026-07-24T14:40:00-04:00",
-            "city": null,
-            "state": null,
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            }
-          ],
-          "live": true
-        },
-        {
-          "nickname": "Box 8",
-          "trackingCode": "874861887160",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrX2VmZDkzZDAxZjA4MjQzODhhZTg3YjFjNWJjMThiYWZk",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "pre_transit",
-          "statusDetail": "label_created",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:16:00Z",
-          "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "New York NY US",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "Shipment information sent to FedEx",
-            "status": "pre_transit",
-            "statusDetail": "label_created",
-            "datetime": "2026-07-24T18:40:00Z",
-            "datetimeLocal": "2026-07-24T14:40:00-04:00",
-            "city": null,
-            "state": null,
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            }
-          ],
-          "live": true
-        },
-        {
-          "nickname": "Box 9",
-          "trackingCode": "874861887387",
-          "trackerUrl": "https://track.easypost.com/djE6dHJrXzVmYTVlOGNlN2E0MDRlYjY5Yzc1YWYyZTFiZjAwMjY4",
-          "carrier": "FedEx",
-          "service": "FEDEX_GROUND",
-          "status": "in_transit",
-          "statusDetail": "received_at_origin_facility",
-          "estDelivery": null,
-          "estDeliveryLocal": null,
-          "carrierUpdatedAt": "2026-08-09T18:23:41Z",
-          "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "New York NY US",
-          "destinationLocation": "Sunnyvale CA US",
-          "lastEvent": {
-            "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
-            "status": "in_transit",
-            "statusDetail": "received_at_origin_facility",
-            "datetime": "2026-08-09T18:20:00Z",
-            "datetimeLocal": "2026-08-09T14:20:00-04:00",
-            "city": "NEW YORK",
-            "state": "NY",
-            "zip": "10024",
-            "country": "US"
-          },
-          "events": [
-            {
-              "message": "Shipment information sent to FedEx",
-              "status": "pre_transit",
-              "statusDetail": "label_created",
-              "datetime": "2026-07-24T18:40:00Z",
-              "datetimeLocal": "2026-07-24T14:40:00-04:00",
-              "city": null,
-              "state": null,
-              "zip": "10024",
-              "country": "US"
-            },
-            {
-              "message": "In FedEx possession (Package received after final location pickup has occurred. Scheduled for pickup next business day.)",
-              "status": "in_transit",
-              "statusDetail": "received_at_origin_facility",
-              "datetime": "2026-08-09T18:20:00Z",
-              "datetimeLocal": "2026-08-09T14:20:00-04:00",
-              "city": "NEW YORK",
-              "state": "NY",
-              "zip": "10024",
               "country": "US"
             }
           ],
