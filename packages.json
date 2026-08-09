@@ -1,21 +1,6 @@
 {
   "batches": [
     {
-      "id": "batch1",
-      "title": "Our Boxes",
-      "shipmentRequestId": "672473",
-      "origin": "Brooklyn, NY",
-      "destination": "Sunnyvale, CA",
-      "packages": [
-        { "nickname": "Box 1", "trackingCode": "874585479240", "trackerUrl": "https://track.easypost.com/djE6dHJrXzQzMjBmOWQ0NDZlNzRiMzlhZjNlMmZiMWZjZWZjZTU1" },
-        { "nickname": "Box 2", "trackingCode": "874585478336", "trackerUrl": "https://track.easypost.com/djE6dHJrX2ZhODc0NjQzMjUxYjRkMzdhNjlhNTc0ZWMyNmViMjU5" },
-        { "nickname": "Box 3", "trackingCode": "874585479766", "trackerUrl": "https://track.easypost.com/djE6dHJrX2Q2NGVlNmEzYjUwNDRkMDFhYjZiMTExNzk3ZTk1MzQw" },
-        { "nickname": "Box 4", "trackingCode": "874585480965", "trackerUrl": "https://track.easypost.com/djE6dHJrXzk0MDAwMGNmNGMwNjQ3YjA5MjAwZThjMTdhYzM3NmFj" },
-        { "nickname": "Box 5", "trackingCode": "874585480531", "trackerUrl": "https://track.easypost.com/djE6dHJrXzkzMDc0ODdiMzY0MTQxNGY4YTMyMmIzY2NhNTE3NjBj" },
-        { "nickname": "Box 6", "trackingCode": "874585480510", "trackerUrl": "https://track.easypost.com/djE6dHJrX2E3ZGY3OTlhMWJlNzRjOGRhMzhkMjA3ZGUzMzQzMDAw" }
-      ]
-    },
-    {
       "id": "batch2",
       "title": "Our second batch of boxes",
       "shipmentRequestId": "674422",
@@ -31,6 +16,21 @@
         { "nickname": "Box 7", "trackingCode": "874861887549", "trackerUrl": "https://track.easypost.com/djE6dHJrX2U4MTY4N2NmZjc2ZDRkOGI4NWVlYzY0MzlmYWE2Y2Zi" },
         { "nickname": "Box 8", "trackingCode": "874861887160", "trackerUrl": "https://track.easypost.com/djE6dHJrX2VmZDkzZDAxZjA4MjQzODhhZTg3YjFjNWJjMThiYWZk" },
         { "nickname": "Box 9", "trackingCode": "874861887387", "trackerUrl": "https://track.easypost.com/djE6dHJrXzVmYTVlOGNlN2E0MDRlYjY5Yzc1YWYyZTFiZjAwMjY4" }
+      ]
+    },
+    {
+      "id": "batch1",
+      "title": "Our Boxes",
+      "shipmentRequestId": "672473",
+      "origin": "Brooklyn, NY",
+      "destination": "Sunnyvale, CA",
+      "packages": [
+        { "nickname": "Box 1", "trackingCode": "874585479240", "trackerUrl": "https://track.easypost.com/djE6dHJrXzQzMjBmOWQ0NDZlNzRiMzlhZjNlMmZiMWZjZWZjZTU1" },
+        { "nickname": "Box 2", "trackingCode": "874585478336", "trackerUrl": "https://track.easypost.com/djE6dHJrX2ZhODc0NjQzMjUxYjRkMzdhNjlhNTc0ZWMyNmViMjU5" },
+        { "nickname": "Box 3", "trackingCode": "874585479766", "trackerUrl": "https://track.easypost.com/djE6dHJrX2Q2NGVlNmEzYjUwNDRkMDFhYjZiMTExNzk3ZTk1MzQw" },
+        { "nickname": "Box 4", "trackingCode": "874585480965", "trackerUrl": "https://track.easypost.com/djE6dHJrXzk0MDAwMGNmNGMwNjQ3YjA5MjAwZThjMTdhYzM3NmFj" },
+        { "nickname": "Box 5", "trackingCode": "874585480531", "trackerUrl": "https://track.easypost.com/djE6dHJrXzkzMDc0ODdiMzY0MTQxNGY4YTMyMmIzY2NhNTE3NjBj" },
+        { "nickname": "Box 6", "trackingCode": "874585480510", "trackerUrl": "https://track.easypost.com/djE6dHJrX2E3ZGY3OTlhMWJlNzRjOGRhMzhkMjA3ZGUzMzQzMDAw" }
       ]
     }
   ]
