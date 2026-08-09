@@ -18,19 +18,19 @@
     {
       "id": "batch2",
       "title": "Our second batch of boxes",
+      "shipmentRequestId": "674422",
       "origin": "New York, NY",
       "destination": "Sunnyvale, CA",
-      "note": "Labels printed 24 Jul. These 9 boxes aren't live-tracked on this page yet, so each shows its label only. Tap any tracking number to see its live status on FedEx.",
       "packages": [
-        { "nickname": "Box 1", "trackingCode": "874861886038" },
-        { "nickname": "Box 2", "trackingCode": "874861885866" },
-        { "nickname": "Box 3", "trackingCode": "874861886900" },
-        { "nickname": "Box 4", "trackingCode": "874861887170" },
-        { "nickname": "Box 5", "trackingCode": "874861887722" },
-        { "nickname": "Box 6", "trackingCode": "874861886509" },
-        { "nickname": "Box 7", "trackingCode": "874861887549" },
-        { "nickname": "Box 8", "trackingCode": "874861887160" },
-        { "nickname": "Box 9", "trackingCode": "874861887387" }
+        { "nickname": "Box 1", "trackingCode": "874861886038", "trackerUrl": "https://track.easypost.com/djE6dHJrX2Y2OGZiZDcyZTU5MTQzZjBhNGNlMDU1ZDViMjRlMjE4" },
+        { "nickname": "Box 2", "trackingCode": "874861885866", "trackerUrl": "https://track.easypost.com/djE6dHJrX2I3NDI0NjAxODZmNTQ2YjY5N2I4NDU2YTI1YzJkOTNj" },
+        { "nickname": "Box 3", "trackingCode": "874861886900", "trackerUrl": "https://track.easypost.com/djE6dHJrXzQzOGFlNjM4ZGE2ODRjN2Q4NTc4ZjE5NzZkYzY5NmVk" },
+        { "nickname": "Box 4", "trackingCode": "874861887170", "trackerUrl": "https://track.easypost.com/djE6dHJrX2E2ZjA1YWUwZWU5MzRhMzU5Mzg2OTg1ZDc2YTRjMWE4" },
+        { "nickname": "Box 5", "trackingCode": "874861887722", "trackerUrl": "https://track.easypost.com/djE6dHJrXzg0MWQyNTI5YjU5MjRmY2FiYTkwZGI4YzlmODZmYmRm" },
+        { "nickname": "Box 6", "trackingCode": "874861886509", "trackerUrl": "https://track.easypost.com/djE6dHJrXzU0MWEzMWVhZWY5MDQ4ZjRiZmExNTQzODk2YjI3MGE3" },
+        { "nickname": "Box 7", "trackingCode": "874861887549", "trackerUrl": "https://track.easypost.com/djE6dHJrX2U4MTY4N2NmZjc2ZDRkOGI4NWVlYzY0MzlmYWE2Y2Zi" },
+        { "nickname": "Box 8", "trackingCode": "874861887160", "trackerUrl": "https://track.easypost.com/djE6dHJrX2VmZDkzZDAxZjA4MjQzODhhZTg3YjFjNWJjMThiYWZk" },
+        { "nickname": "Box 9", "trackingCode": "874861887387", "trackerUrl": "https://track.easypost.com/djE6dHJrXzVmYTVlOGNlN2E0MDRlYjY5Yzc1YWYyZTFiZjAwMjY4" }
       ]
     }
   ]
