@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T04:49:36.123Z",
+  "generatedAt": "2026-08-11T05:49:07.000Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,7 +21,7 @@
           "statusDetail": "departed_origin_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T04:36:52Z",
+          "carrierUpdatedAt": "2026-08-11T05:37:32Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -103,23 +103,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_origin_facility",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T03:59:58Z",
+          "carrierUpdatedAt": "2026-08-11T05:48:45Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Left FedEx origin facility",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "departed_origin_facility",
-            "datetime": "2026-08-11T02:29:10Z",
-            "datetimeLocal": "2026-08-10T22:29:10-04:00",
-            "city": "BROOKLYN",
-            "state": "NY",
-            "zip": "11211",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-11T04:45:00Z",
+            "datetimeLocal": "2026-08-11T00:45:00-04:00",
+            "city": "EDISON",
+            "state": "NJ",
+            "zip": "08817",
             "country": "US"
           },
           "events": [
@@ -177,6 +177,17 @@
               "state": "NY",
               "zip": "11211",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-11T04:45:00Z",
+              "datetimeLocal": "2026-08-11T00:45:00-04:00",
+              "city": "EDISON",
+              "state": "NJ",
+              "zip": "08817",
+              "country": "US"
             }
           ],
           "live": true
@@ -188,23 +199,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_origin_facility",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T04:44:27Z",
+          "carrierUpdatedAt": "2026-08-11T05:45:13Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Left FedEx origin facility",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "departed_origin_facility",
-            "datetime": "2026-08-11T02:29:10Z",
-            "datetimeLocal": "2026-08-10T22:29:10-04:00",
-            "city": "BROOKLYN",
-            "state": "NY",
-            "zip": "11211",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-11T04:48:00Z",
+            "datetimeLocal": "2026-08-11T00:48:00-04:00",
+            "city": "EDISON",
+            "state": "NJ",
+            "zip": "08817",
             "country": "US"
           },
           "events": [
@@ -262,6 +273,17 @@
               "state": "NY",
               "zip": "11211",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-11T04:48:00Z",
+              "datetimeLocal": "2026-08-11T00:48:00-04:00",
+              "city": "EDISON",
+              "state": "NJ",
+              "zip": "08817",
+              "country": "US"
             }
           ],
           "live": true
@@ -273,23 +295,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_origin_facility",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T04:32:09Z",
+          "carrierUpdatedAt": "2026-08-11T05:47:08Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Left FedEx origin facility",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "departed_origin_facility",
-            "datetime": "2026-08-11T02:29:10Z",
-            "datetimeLocal": "2026-08-10T22:29:10-04:00",
-            "city": "BROOKLYN",
-            "state": "NY",
-            "zip": "11211",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-11T04:45:00Z",
+            "datetimeLocal": "2026-08-11T00:45:00-04:00",
+            "city": "EDISON",
+            "state": "NJ",
+            "zip": "08817",
             "country": "US"
           },
           "events": [
@@ -347,6 +369,17 @@
               "state": "NY",
               "zip": "11211",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-11T04:45:00Z",
+              "datetimeLocal": "2026-08-11T00:45:00-04:00",
+              "city": "EDISON",
+              "state": "NJ",
+              "zip": "08817",
+              "country": "US"
             }
           ],
           "live": true
@@ -358,23 +391,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_origin_facility",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T04:22:41Z",
+          "carrierUpdatedAt": "2026-08-11T05:33:47Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Left FedEx origin facility",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "departed_origin_facility",
-            "datetime": "2026-08-11T02:29:10Z",
-            "datetimeLocal": "2026-08-10T22:29:10-04:00",
-            "city": "BROOKLYN",
-            "state": "NY",
-            "zip": "11211",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-11T04:45:00Z",
+            "datetimeLocal": "2026-08-11T00:45:00-04:00",
+            "city": "EDISON",
+            "state": "NJ",
+            "zip": "08817",
             "country": "US"
           },
           "events": [
@@ -432,6 +465,17 @@
               "state": "NY",
               "zip": "11211",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-11T04:45:00Z",
+              "datetimeLocal": "2026-08-11T00:45:00-04:00",
+              "city": "EDISON",
+              "state": "NJ",
+              "zip": "08817",
+              "country": "US"
             }
           ],
           "live": true
@@ -446,7 +490,7 @@
           "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T04:48:14Z",
+          "carrierUpdatedAt": "2026-08-11T05:25:53Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -539,23 +583,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_origin_facility",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T04:16:35Z",
+          "carrierUpdatedAt": "2026-08-11T05:44:04Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Left FedEx origin facility",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "departed_origin_facility",
-            "datetime": "2026-08-11T02:29:10Z",
-            "datetimeLocal": "2026-08-10T22:29:10-04:00",
-            "city": "BROOKLYN",
-            "state": "NY",
-            "zip": "11211",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-11T05:02:00Z",
+            "datetimeLocal": "2026-08-11T01:02:00-04:00",
+            "city": "EDISON",
+            "state": "NJ",
+            "zip": "08817",
             "country": "US"
           },
           "events": [
@@ -613,6 +657,28 @@
               "state": "NY",
               "zip": "11211",
               "country": "US"
+            },
+            {
+              "message": "Shipment exception (Barcode label unreadable and replaced)",
+              "status": "in_transit",
+              "statusDetail": "transit_exception",
+              "datetime": "2026-08-11T04:59:40Z",
+              "datetimeLocal": "2026-08-11T00:59:40-04:00",
+              "city": "EDISON",
+              "state": "NJ",
+              "zip": "08817",
+              "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-11T05:02:00Z",
+              "datetimeLocal": "2026-08-11T01:02:00-04:00",
+              "city": "EDISON",
+              "state": "NJ",
+              "zip": "08817",
+              "country": "US"
             }
           ],
           "live": true
@@ -624,23 +690,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_origin_facility",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T04:15:32Z",
+          "carrierUpdatedAt": "2026-08-11T05:29:26Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Left FedEx origin facility",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "departed_origin_facility",
-            "datetime": "2026-08-11T02:29:10Z",
-            "datetimeLocal": "2026-08-10T22:29:10-04:00",
-            "city": "BROOKLYN",
-            "state": "NY",
-            "zip": "11211",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-11T04:37:00Z",
+            "datetimeLocal": "2026-08-11T00:37:00-04:00",
+            "city": "EDISON",
+            "state": "NJ",
+            "zip": "08817",
             "country": "US"
           },
           "events": [
@@ -698,6 +764,17 @@
               "state": "NY",
               "zip": "11211",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-11T04:37:00Z",
+              "datetimeLocal": "2026-08-11T00:37:00-04:00",
+              "city": "EDISON",
+              "state": "NJ",
+              "zip": "08817",
+              "country": "US"
             }
           ],
           "live": true
@@ -712,7 +789,7 @@
           "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-11T04:38:17Z",
+          "carrierUpdatedAt": "2026-08-11T05:10:11Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -721,11 +798,11 @@
             "message": "Arrived at FedEx location",
             "status": "in_transit",
             "statusDetail": "arrived_at_facility",
-            "datetime": "2026-08-10T23:33:00Z",
-            "datetimeLocal": "2026-08-10T19:33:00-04:00",
-            "city": "BROOKLYN",
-            "state": "NY",
-            "zip": "11211",
+            "datetime": "2026-08-11T05:06:00Z",
+            "datetimeLocal": "2026-08-11T01:06:00-04:00",
+            "city": "EDISON",
+            "state": "NJ",
+            "zip": "08817",
             "country": "US"
           },
           "events": [
@@ -771,6 +848,17 @@
               "city": "BROOKLYN",
               "state": "NY",
               "zip": "11211",
+              "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-11T05:06:00Z",
+              "datetimeLocal": "2026-08-11T01:06:00-04:00",
+              "city": "EDISON",
+              "state": "NJ",
+              "zip": "08817",
               "country": "US"
             }
           ],
