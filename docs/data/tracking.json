@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T06:52:09.054Z",
+  "generatedAt": "2026-08-12T08:10:47.366Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,7 +21,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:36:29Z",
+          "carrierUpdatedAt": "2026-08-12T07:48:58Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -125,23 +125,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:45:12Z",
+          "carrierUpdatedAt": "2026-08-12T08:07:20Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "On the way",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-11T14:31:19Z",
-            "datetimeLocal": "2026-08-11T10:31:19-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "in_transit",
+            "datetime": "2026-08-12T04:03:49Z",
+            "datetimeLocal": "2026-08-12T00:03:49-04:00",
+            "city": "SUSQUEHANNA TWP",
+            "state": "PA",
+            "zip": "17110",
             "country": "US"
           },
           "events": [
@@ -221,6 +221,17 @@
               "state": "NJ",
               "zip": "08817",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T04:03:49Z",
+              "datetimeLocal": "2026-08-12T00:03:49-04:00",
+              "city": "SUSQUEHANNA TWP",
+              "state": "PA",
+              "zip": "17110",
+              "country": "US"
             }
           ],
           "live": true
@@ -232,23 +243,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:18:51Z",
+          "carrierUpdatedAt": "2026-08-12T08:06:49Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "On the way",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-11T14:31:19Z",
-            "datetimeLocal": "2026-08-11T10:31:19-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "in_transit",
+            "datetime": "2026-08-12T04:03:49Z",
+            "datetimeLocal": "2026-08-12T00:03:49-04:00",
+            "city": "SUSQUEHANNA TWP",
+            "state": "PA",
+            "zip": "17110",
             "country": "US"
           },
           "events": [
@@ -328,6 +339,17 @@
               "state": "NJ",
               "zip": "08817",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T04:03:49Z",
+              "datetimeLocal": "2026-08-12T00:03:49-04:00",
+              "city": "SUSQUEHANNA TWP",
+              "state": "PA",
+              "zip": "17110",
+              "country": "US"
             }
           ],
           "live": true
@@ -339,23 +361,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:35:49Z",
+          "carrierUpdatedAt": "2026-08-12T08:06:37Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "On the way",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-11T14:31:19Z",
-            "datetimeLocal": "2026-08-11T10:31:19-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "in_transit",
+            "datetime": "2026-08-12T04:03:49Z",
+            "datetimeLocal": "2026-08-12T00:03:49-04:00",
+            "city": "SUSQUEHANNA TWP",
+            "state": "PA",
+            "zip": "17110",
             "country": "US"
           },
           "events": [
@@ -435,6 +457,17 @@
               "state": "NJ",
               "zip": "08817",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T04:03:49Z",
+              "datetimeLocal": "2026-08-12T00:03:49-04:00",
+              "city": "SUSQUEHANNA TWP",
+              "state": "PA",
+              "zip": "17110",
+              "country": "US"
             }
           ],
           "live": true
@@ -446,23 +479,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:34:22Z",
+          "carrierUpdatedAt": "2026-08-12T07:48:50Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "On the way",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-11T14:31:19Z",
-            "datetimeLocal": "2026-08-11T10:31:19-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "in_transit",
+            "datetime": "2026-08-12T04:03:49Z",
+            "datetimeLocal": "2026-08-12T00:03:49-04:00",
+            "city": "SUSQUEHANNA TWP",
+            "state": "PA",
+            "zip": "17110",
             "country": "US"
           },
           "events": [
@@ -542,6 +575,17 @@
               "state": "NJ",
               "zip": "08817",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T04:03:49Z",
+              "datetimeLocal": "2026-08-12T00:03:49-04:00",
+              "city": "SUSQUEHANNA TWP",
+              "state": "PA",
+              "zip": "17110",
+              "country": "US"
             }
           ],
           "live": true
@@ -553,23 +597,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:42:46Z",
+          "carrierUpdatedAt": "2026-08-12T07:57:16Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "On the way",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-11T14:31:19Z",
-            "datetimeLocal": "2026-08-11T10:31:19-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "in_transit",
+            "datetime": "2026-08-12T04:03:49Z",
+            "datetimeLocal": "2026-08-12T00:03:49-04:00",
+            "city": "SUSQUEHANNA TWP",
+            "state": "PA",
+            "zip": "17110",
             "country": "US"
           },
           "events": [
@@ -649,6 +693,17 @@
               "state": "NJ",
               "zip": "08817",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T04:03:49Z",
+              "datetimeLocal": "2026-08-12T00:03:49-04:00",
+              "city": "SUSQUEHANNA TWP",
+              "state": "PA",
+              "zip": "17110",
+              "country": "US"
             }
           ],
           "live": true
@@ -660,23 +715,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:23:55Z",
+          "carrierUpdatedAt": "2026-08-12T08:05:47Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "On the way",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-11T14:31:19Z",
-            "datetimeLocal": "2026-08-11T10:31:19-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "in_transit",
+            "datetime": "2026-08-12T04:03:49Z",
+            "datetimeLocal": "2026-08-12T00:03:49-04:00",
+            "city": "SUSQUEHANNA TWP",
+            "state": "PA",
+            "zip": "17110",
             "country": "US"
           },
           "events": [
@@ -767,6 +822,17 @@
               "state": "NJ",
               "zip": "08817",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T04:03:49Z",
+              "datetimeLocal": "2026-08-12T00:03:49-04:00",
+              "city": "SUSQUEHANNA TWP",
+              "state": "PA",
+              "zip": "17110",
+              "country": "US"
             }
           ],
           "live": true
@@ -778,23 +844,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:47:58Z",
+          "carrierUpdatedAt": "2026-08-12T08:09:34Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "On the way",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-11T14:31:19Z",
-            "datetimeLocal": "2026-08-11T10:31:19-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "in_transit",
+            "datetime": "2026-08-12T04:03:49Z",
+            "datetimeLocal": "2026-08-12T00:03:49-04:00",
+            "city": "SUSQUEHANNA TWP",
+            "state": "PA",
+            "zip": "17110",
             "country": "US"
           },
           "events": [
@@ -874,6 +940,17 @@
               "state": "NJ",
               "zip": "08817",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T04:03:49Z",
+              "datetimeLocal": "2026-08-12T00:03:49-04:00",
+              "city": "SUSQUEHANNA TWP",
+              "state": "PA",
+              "zip": "17110",
+              "country": "US"
             }
           ],
           "live": true
@@ -885,23 +962,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T06:38:30Z",
+          "carrierUpdatedAt": "2026-08-12T07:50:29Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "On the way",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-11T14:31:19Z",
-            "datetimeLocal": "2026-08-11T10:31:19-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "in_transit",
+            "datetime": "2026-08-12T04:03:49Z",
+            "datetimeLocal": "2026-08-12T00:03:49-04:00",
+            "city": "SUSQUEHANNA TWP",
+            "state": "PA",
+            "zip": "17110",
             "country": "US"
           },
           "events": [
@@ -969,6 +1046,17 @@
               "city": "EDISON",
               "state": "NJ",
               "zip": "08817",
+              "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T04:03:49Z",
+              "datetimeLocal": "2026-08-12T00:03:49-04:00",
+              "city": "SUSQUEHANNA TWP",
+              "state": "PA",
+              "zip": "17110",
               "country": "US"
             }
           ],
