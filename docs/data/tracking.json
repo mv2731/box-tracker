@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T15:27:17.088Z",
+  "generatedAt": "2026-08-12T16:25:08.601Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,7 +21,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T15:12:48Z",
+          "carrierUpdatedAt": "2026-08-12T16:19:13Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -128,7 +128,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T15:22:21Z",
+          "carrierUpdatedAt": "2026-08-12T16:22:43Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -137,11 +137,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T04:03:49Z",
-            "datetimeLocal": "2026-08-12T00:03:49-04:00",
-            "city": "SUSQUEHANNA TWP",
+            "datetime": "2026-08-12T16:04:08Z",
+            "datetimeLocal": "2026-08-12T12:04:08-04:00",
+            "city": "JACKSON TWP",
             "state": "PA",
-            "zip": "17110",
+            "zip": "15909",
             "country": "US"
           },
           "events": [
@@ -232,6 +232,17 @@
               "state": "PA",
               "zip": "17110",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T16:04:08Z",
+              "datetimeLocal": "2026-08-12T12:04:08-04:00",
+              "city": "JACKSON TWP",
+              "state": "PA",
+              "zip": "15909",
+              "country": "US"
             }
           ],
           "live": true
@@ -246,7 +257,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T15:08:42Z",
+          "carrierUpdatedAt": "2026-08-12T16:16:04Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -255,11 +266,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T04:03:49Z",
-            "datetimeLocal": "2026-08-12T00:03:49-04:00",
-            "city": "SUSQUEHANNA TWP",
+            "datetime": "2026-08-12T16:04:08Z",
+            "datetimeLocal": "2026-08-12T12:04:08-04:00",
+            "city": "JACKSON TWP",
             "state": "PA",
-            "zip": "17110",
+            "zip": "15909",
             "country": "US"
           },
           "events": [
@@ -350,6 +361,17 @@
               "state": "PA",
               "zip": "17110",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T16:04:08Z",
+              "datetimeLocal": "2026-08-12T12:04:08-04:00",
+              "city": "JACKSON TWP",
+              "state": "PA",
+              "zip": "15909",
+              "country": "US"
             }
           ],
           "live": true
@@ -364,7 +386,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T14:46:08Z",
+          "carrierUpdatedAt": "2026-08-12T16:06:01Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -373,11 +395,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T04:03:49Z",
-            "datetimeLocal": "2026-08-12T00:03:49-04:00",
-            "city": "SUSQUEHANNA TWP",
+            "datetime": "2026-08-12T16:04:08Z",
+            "datetimeLocal": "2026-08-12T12:04:08-04:00",
+            "city": "JACKSON TWP",
             "state": "PA",
-            "zip": "17110",
+            "zip": "15909",
             "country": "US"
           },
           "events": [
@@ -468,6 +490,17 @@
               "state": "PA",
               "zip": "17110",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T16:04:08Z",
+              "datetimeLocal": "2026-08-12T12:04:08-04:00",
+              "city": "JACKSON TWP",
+              "state": "PA",
+              "zip": "15909",
+              "country": "US"
             }
           ],
           "live": true
@@ -482,7 +515,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T15:09:19Z",
+          "carrierUpdatedAt": "2026-08-12T16:01:20Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -600,7 +633,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T15:18:42Z",
+          "carrierUpdatedAt": "2026-08-12T16:16:47Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -609,11 +642,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T04:03:49Z",
-            "datetimeLocal": "2026-08-12T00:03:49-04:00",
-            "city": "SUSQUEHANNA TWP",
+            "datetime": "2026-08-12T16:04:08Z",
+            "datetimeLocal": "2026-08-12T12:04:08-04:00",
+            "city": "JACKSON TWP",
             "state": "PA",
-            "zip": "17110",
+            "zip": "15909",
             "country": "US"
           },
           "events": [
@@ -704,6 +737,17 @@
               "state": "PA",
               "zip": "17110",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T16:04:08Z",
+              "datetimeLocal": "2026-08-12T12:04:08-04:00",
+              "city": "JACKSON TWP",
+              "state": "PA",
+              "zip": "15909",
+              "country": "US"
             }
           ],
           "live": true
@@ -718,7 +762,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T15:07:40Z",
+          "carrierUpdatedAt": "2026-08-12T16:20:05Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -727,11 +771,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T04:03:49Z",
-            "datetimeLocal": "2026-08-12T00:03:49-04:00",
-            "city": "SUSQUEHANNA TWP",
+            "datetime": "2026-08-12T16:04:08Z",
+            "datetimeLocal": "2026-08-12T12:04:08-04:00",
+            "city": "JACKSON TWP",
             "state": "PA",
-            "zip": "17110",
+            "zip": "15909",
             "country": "US"
           },
           "events": [
@@ -833,6 +877,17 @@
               "state": "PA",
               "zip": "17110",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T16:04:08Z",
+              "datetimeLocal": "2026-08-12T12:04:08-04:00",
+              "city": "JACKSON TWP",
+              "state": "PA",
+              "zip": "15909",
+              "country": "US"
             }
           ],
           "live": true
@@ -847,7 +902,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T14:46:17Z",
+          "carrierUpdatedAt": "2026-08-12T16:12:32Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -856,11 +911,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T04:03:49Z",
-            "datetimeLocal": "2026-08-12T00:03:49-04:00",
-            "city": "SUSQUEHANNA TWP",
+            "datetime": "2026-08-12T16:04:08Z",
+            "datetimeLocal": "2026-08-12T12:04:08-04:00",
+            "city": "JACKSON TWP",
             "state": "PA",
-            "zip": "17110",
+            "zip": "15909",
             "country": "US"
           },
           "events": [
@@ -951,6 +1006,17 @@
               "state": "PA",
               "zip": "17110",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T16:04:08Z",
+              "datetimeLocal": "2026-08-12T12:04:08-04:00",
+              "city": "JACKSON TWP",
+              "state": "PA",
+              "zip": "15909",
+              "country": "US"
             }
           ],
           "live": true
@@ -965,7 +1031,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-12T15:21:59Z",
+          "carrierUpdatedAt": "2026-08-12T16:16:47Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -974,11 +1040,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T04:03:49Z",
-            "datetimeLocal": "2026-08-12T00:03:49-04:00",
-            "city": "SUSQUEHANNA TWP",
+            "datetime": "2026-08-12T16:04:08Z",
+            "datetimeLocal": "2026-08-12T12:04:08-04:00",
+            "city": "JACKSON TWP",
             "state": "PA",
-            "zip": "17110",
+            "zip": "15909",
             "country": "US"
           },
           "events": [
@@ -1057,6 +1123,17 @@
               "city": "SUSQUEHANNA TWP",
               "state": "PA",
               "zip": "17110",
+              "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-12T16:04:08Z",
+              "datetimeLocal": "2026-08-12T12:04:08-04:00",
+              "city": "JACKSON TWP",
+              "state": "PA",
+              "zip": "15909",
               "country": "US"
             }
           ],
