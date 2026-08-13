@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T03:36:51.305Z",
+  "generatedAt": "2026-08-13T05:28:29.968Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,7 +21,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:19:19Z",
+          "carrierUpdatedAt": "2026-08-13T05:06:17Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -128,7 +128,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:28:40Z",
+          "carrierUpdatedAt": "2026-08-13T05:18:02Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -137,11 +137,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T16:04:08Z",
-            "datetimeLocal": "2026-08-12T12:04:08-04:00",
-            "city": "JACKSON TWP",
-            "state": "PA",
-            "zip": "15909",
+            "datetime": "2026-08-13T04:05:10Z",
+            "datetimeLocal": "2026-08-13T00:05:10-04:00",
+            "city": "WATERLOO",
+            "state": "IN",
+            "zip": "46793",
             "country": "US"
           },
           "events": [
@@ -243,6 +243,17 @@
               "state": "PA",
               "zip": "15909",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-13T04:05:10Z",
+              "datetimeLocal": "2026-08-13T00:05:10-04:00",
+              "city": "WATERLOO",
+              "state": "IN",
+              "zip": "46793",
+              "country": "US"
             }
           ],
           "live": true
@@ -257,7 +268,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:35:17Z",
+          "carrierUpdatedAt": "2026-08-13T05:24:41Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -266,11 +277,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T16:04:08Z",
-            "datetimeLocal": "2026-08-12T12:04:08-04:00",
-            "city": "JACKSON TWP",
-            "state": "PA",
-            "zip": "15909",
+            "datetime": "2026-08-13T04:05:10Z",
+            "datetimeLocal": "2026-08-13T00:05:10-04:00",
+            "city": "WATERLOO",
+            "state": "IN",
+            "zip": "46793",
             "country": "US"
           },
           "events": [
@@ -372,6 +383,17 @@
               "state": "PA",
               "zip": "15909",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-13T04:05:10Z",
+              "datetimeLocal": "2026-08-13T00:05:10-04:00",
+              "city": "WATERLOO",
+              "state": "IN",
+              "zip": "46793",
+              "country": "US"
             }
           ],
           "live": true
@@ -386,7 +408,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:30:27Z",
+          "carrierUpdatedAt": "2026-08-13T05:06:10Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -395,11 +417,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T16:04:08Z",
-            "datetimeLocal": "2026-08-12T12:04:08-04:00",
-            "city": "JACKSON TWP",
-            "state": "PA",
-            "zip": "15909",
+            "datetime": "2026-08-13T04:05:10Z",
+            "datetimeLocal": "2026-08-13T00:05:10-04:00",
+            "city": "WATERLOO",
+            "state": "IN",
+            "zip": "46793",
             "country": "US"
           },
           "events": [
@@ -501,6 +523,17 @@
               "state": "PA",
               "zip": "15909",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-13T04:05:10Z",
+              "datetimeLocal": "2026-08-13T00:05:10-04:00",
+              "city": "WATERLOO",
+              "state": "IN",
+              "zip": "46793",
+              "country": "US"
             }
           ],
           "live": true
@@ -515,7 +548,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:33:14Z",
+          "carrierUpdatedAt": "2026-08-13T05:18:46Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -524,11 +557,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T16:04:08Z",
-            "datetimeLocal": "2026-08-12T12:04:08-04:00",
-            "city": "JACKSON TWP",
-            "state": "PA",
-            "zip": "15909",
+            "datetime": "2026-08-13T04:05:10Z",
+            "datetimeLocal": "2026-08-13T00:05:10-04:00",
+            "city": "WATERLOO",
+            "state": "IN",
+            "zip": "46793",
             "country": "US"
           },
           "events": [
@@ -630,6 +663,17 @@
               "state": "PA",
               "zip": "15909",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-13T04:05:10Z",
+              "datetimeLocal": "2026-08-13T00:05:10-04:00",
+              "city": "WATERLOO",
+              "state": "IN",
+              "zip": "46793",
+              "country": "US"
             }
           ],
           "live": true
@@ -644,7 +688,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:31:14Z",
+          "carrierUpdatedAt": "2026-08-13T05:17:25Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -653,11 +697,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T16:04:08Z",
-            "datetimeLocal": "2026-08-12T12:04:08-04:00",
-            "city": "JACKSON TWP",
-            "state": "PA",
-            "zip": "15909",
+            "datetime": "2026-08-13T04:05:10Z",
+            "datetimeLocal": "2026-08-13T00:05:10-04:00",
+            "city": "WATERLOO",
+            "state": "IN",
+            "zip": "46793",
             "country": "US"
           },
           "events": [
@@ -759,6 +803,17 @@
               "state": "PA",
               "zip": "15909",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-13T04:05:10Z",
+              "datetimeLocal": "2026-08-13T00:05:10-04:00",
+              "city": "WATERLOO",
+              "state": "IN",
+              "zip": "46793",
+              "country": "US"
             }
           ],
           "live": true
@@ -773,7 +828,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:15:19Z",
+          "carrierUpdatedAt": "2026-08-13T05:18:29Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -782,11 +837,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T16:04:08Z",
-            "datetimeLocal": "2026-08-12T12:04:08-04:00",
-            "city": "JACKSON TWP",
-            "state": "PA",
-            "zip": "15909",
+            "datetime": "2026-08-13T04:05:10Z",
+            "datetimeLocal": "2026-08-13T00:05:10-04:00",
+            "city": "WATERLOO",
+            "state": "IN",
+            "zip": "46793",
             "country": "US"
           },
           "events": [
@@ -899,6 +954,17 @@
               "state": "PA",
               "zip": "15909",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-13T04:05:10Z",
+              "datetimeLocal": "2026-08-13T00:05:10-04:00",
+              "city": "WATERLOO",
+              "state": "IN",
+              "zip": "46793",
+              "country": "US"
             }
           ],
           "live": true
@@ -913,7 +979,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:25:55Z",
+          "carrierUpdatedAt": "2026-08-13T05:17:13Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -922,11 +988,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T16:04:08Z",
-            "datetimeLocal": "2026-08-12T12:04:08-04:00",
-            "city": "JACKSON TWP",
-            "state": "PA",
-            "zip": "15909",
+            "datetime": "2026-08-13T04:05:10Z",
+            "datetimeLocal": "2026-08-13T00:05:10-04:00",
+            "city": "WATERLOO",
+            "state": "IN",
+            "zip": "46793",
             "country": "US"
           },
           "events": [
@@ -1028,6 +1094,17 @@
               "state": "PA",
               "zip": "15909",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-13T04:05:10Z",
+              "datetimeLocal": "2026-08-13T00:05:10-04:00",
+              "city": "WATERLOO",
+              "state": "IN",
+              "zip": "46793",
+              "country": "US"
             }
           ],
           "live": true
@@ -1042,7 +1119,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-13T03:36:03Z",
+          "carrierUpdatedAt": "2026-08-13T05:28:19Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1051,11 +1128,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-12T16:04:08Z",
-            "datetimeLocal": "2026-08-12T12:04:08-04:00",
-            "city": "JACKSON TWP",
-            "state": "PA",
-            "zip": "15909",
+            "datetime": "2026-08-13T04:05:10Z",
+            "datetimeLocal": "2026-08-13T00:05:10-04:00",
+            "city": "WATERLOO",
+            "state": "IN",
+            "zip": "46793",
             "country": "US"
           },
           "events": [
@@ -1145,6 +1222,17 @@
               "city": "JACKSON TWP",
               "state": "PA",
               "zip": "15909",
+              "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-13T04:05:10Z",
+              "datetimeLocal": "2026-08-13T00:05:10-04:00",
+              "city": "WATERLOO",
+              "state": "IN",
+              "zip": "46793",
               "country": "US"
             }
           ],
