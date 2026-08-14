@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T05:26:24.943Z",
+  "generatedAt": "2026-08-14T06:52:40.790Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,7 +21,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:09:14Z",
+          "carrierUpdatedAt": "2026-08-14T06:46:07Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -128,7 +128,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:16:33Z",
+          "carrierUpdatedAt": "2026-08-14T06:41:53Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -137,11 +137,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-13T16:29:25Z",
-            "datetimeLocal": "2026-08-13T11:29:25-05:00",
-            "city": "CHICAGO",
+            "datetime": "2026-08-14T04:32:20Z",
+            "datetimeLocal": "2026-08-13T23:32:20-05:00",
+            "city": "COUNTRYSIDE",
             "state": "IL",
-            "zip": "60609",
+            "zip": "60525",
             "country": "US"
           },
           "events": [
@@ -265,6 +265,17 @@
               "state": "IL",
               "zip": "60609",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-14T04:32:20Z",
+              "datetimeLocal": "2026-08-13T23:32:20-05:00",
+              "city": "COUNTRYSIDE",
+              "state": "IL",
+              "zip": "60525",
+              "country": "US"
             }
           ],
           "live": true
@@ -279,7 +290,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:17:24Z",
+          "carrierUpdatedAt": "2026-08-14T06:12:11Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -288,11 +299,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-13T16:29:25Z",
-            "datetimeLocal": "2026-08-13T11:29:25-05:00",
-            "city": "CHICAGO",
+            "datetime": "2026-08-14T04:32:20Z",
+            "datetimeLocal": "2026-08-13T23:32:20-05:00",
+            "city": "COUNTRYSIDE",
             "state": "IL",
-            "zip": "60609",
+            "zip": "60525",
             "country": "US"
           },
           "events": [
@@ -416,6 +427,17 @@
               "state": "IL",
               "zip": "60609",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-14T04:32:20Z",
+              "datetimeLocal": "2026-08-13T23:32:20-05:00",
+              "city": "COUNTRYSIDE",
+              "state": "IL",
+              "zip": "60525",
+              "country": "US"
             }
           ],
           "live": true
@@ -430,7 +452,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:22:56Z",
+          "carrierUpdatedAt": "2026-08-14T06:50:42Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -439,11 +461,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-13T16:29:25Z",
-            "datetimeLocal": "2026-08-13T11:29:25-05:00",
-            "city": "CHICAGO",
+            "datetime": "2026-08-14T04:32:20Z",
+            "datetimeLocal": "2026-08-13T23:32:20-05:00",
+            "city": "COUNTRYSIDE",
             "state": "IL",
-            "zip": "60609",
+            "zip": "60525",
             "country": "US"
           },
           "events": [
@@ -567,6 +589,17 @@
               "state": "IL",
               "zip": "60609",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-14T04:32:20Z",
+              "datetimeLocal": "2026-08-13T23:32:20-05:00",
+              "city": "COUNTRYSIDE",
+              "state": "IL",
+              "zip": "60525",
+              "country": "US"
             }
           ],
           "live": true
@@ -581,7 +614,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:21:26Z",
+          "carrierUpdatedAt": "2026-08-14T06:50:24Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -590,11 +623,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-13T16:29:25Z",
-            "datetimeLocal": "2026-08-13T11:29:25-05:00",
-            "city": "CHICAGO",
+            "datetime": "2026-08-14T04:32:20Z",
+            "datetimeLocal": "2026-08-13T23:32:20-05:00",
+            "city": "COUNTRYSIDE",
             "state": "IL",
-            "zip": "60609",
+            "zip": "60525",
             "country": "US"
           },
           "events": [
@@ -718,6 +751,17 @@
               "state": "IL",
               "zip": "60609",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-14T04:32:20Z",
+              "datetimeLocal": "2026-08-13T23:32:20-05:00",
+              "city": "COUNTRYSIDE",
+              "state": "IL",
+              "zip": "60525",
+              "country": "US"
             }
           ],
           "live": true
@@ -732,7 +776,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:21:53Z",
+          "carrierUpdatedAt": "2026-08-14T06:46:09Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -741,11 +785,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-13T16:29:25Z",
-            "datetimeLocal": "2026-08-13T11:29:25-05:00",
-            "city": "CHICAGO",
+            "datetime": "2026-08-14T04:32:20Z",
+            "datetimeLocal": "2026-08-13T23:32:20-05:00",
+            "city": "COUNTRYSIDE",
             "state": "IL",
-            "zip": "60609",
+            "zip": "60525",
             "country": "US"
           },
           "events": [
@@ -869,6 +913,17 @@
               "state": "IL",
               "zip": "60609",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-14T04:32:20Z",
+              "datetimeLocal": "2026-08-13T23:32:20-05:00",
+              "city": "COUNTRYSIDE",
+              "state": "IL",
+              "zip": "60525",
+              "country": "US"
             }
           ],
           "live": true
@@ -883,7 +938,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:12:51Z",
+          "carrierUpdatedAt": "2026-08-14T06:42:28Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -892,11 +947,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-13T16:29:25Z",
-            "datetimeLocal": "2026-08-13T11:29:25-05:00",
-            "city": "CHICAGO",
+            "datetime": "2026-08-14T04:32:20Z",
+            "datetimeLocal": "2026-08-13T23:32:20-05:00",
+            "city": "COUNTRYSIDE",
             "state": "IL",
-            "zip": "60609",
+            "zip": "60525",
             "country": "US"
           },
           "events": [
@@ -1031,6 +1086,17 @@
               "state": "IL",
               "zip": "60609",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-14T04:32:20Z",
+              "datetimeLocal": "2026-08-13T23:32:20-05:00",
+              "city": "COUNTRYSIDE",
+              "state": "IL",
+              "zip": "60525",
+              "country": "US"
             }
           ],
           "live": true
@@ -1045,7 +1111,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:17:03Z",
+          "carrierUpdatedAt": "2026-08-14T06:37:15Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1054,11 +1120,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-13T16:29:25Z",
-            "datetimeLocal": "2026-08-13T11:29:25-05:00",
-            "city": "CHICAGO",
+            "datetime": "2026-08-14T04:32:20Z",
+            "datetimeLocal": "2026-08-13T23:32:20-05:00",
+            "city": "COUNTRYSIDE",
             "state": "IL",
-            "zip": "60609",
+            "zip": "60525",
             "country": "US"
           },
           "events": [
@@ -1182,6 +1248,17 @@
               "state": "IL",
               "zip": "60609",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-14T04:32:20Z",
+              "datetimeLocal": "2026-08-13T23:32:20-05:00",
+              "city": "COUNTRYSIDE",
+              "state": "IL",
+              "zip": "60525",
+              "country": "US"
             }
           ],
           "live": true
@@ -1196,7 +1273,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-14T05:20:09Z",
+          "carrierUpdatedAt": "2026-08-14T06:40:06Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1205,11 +1282,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-13T16:29:25Z",
-            "datetimeLocal": "2026-08-13T11:29:25-05:00",
-            "city": "CHICAGO",
+            "datetime": "2026-08-14T04:32:20Z",
+            "datetimeLocal": "2026-08-13T23:32:20-05:00",
+            "city": "COUNTRYSIDE",
             "state": "IL",
-            "zip": "60609",
+            "zip": "60525",
             "country": "US"
           },
           "events": [
@@ -1321,6 +1398,17 @@
               "city": "CHICAGO",
               "state": "IL",
               "zip": "60609",
+              "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-14T04:32:20Z",
+              "datetimeLocal": "2026-08-13T23:32:20-05:00",
+              "city": "COUNTRYSIDE",
+              "state": "IL",
+              "zip": "60525",
               "country": "US"
             }
           ],
