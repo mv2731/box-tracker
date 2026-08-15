@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:13:35.140Z",
+  "generatedAt": "2026-08-15T17:43:06.226Z",
   "failedCount": 0,
   "batches": [
     {
@@ -165,7 +165,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T16:56:52Z",
+          "carrierUpdatedAt": "2026-08-15T17:35:13Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -272,7 +272,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T16:32:39Z",
+          "carrierUpdatedAt": "2026-08-15T17:42:35Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -281,11 +281,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T04:43:36Z",
-            "datetimeLocal": "2026-08-14T23:43:36-05:00",
-            "city": "PAMPA",
-            "state": "TX",
-            "zip": "79065",
+            "datetime": "2026-08-15T17:12:56Z",
+            "datetimeLocal": "2026-08-15T11:12:56-06:00",
+            "city": "LAGUNA",
+            "state": "NM",
+            "zip": "87026",
             "country": "US"
           },
           "events": [
@@ -442,6 +442,17 @@
               "state": "TX",
               "zip": "79065",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T17:12:56Z",
+              "datetimeLocal": "2026-08-15T11:12:56-06:00",
+              "city": "LAGUNA",
+              "state": "NM",
+              "zip": "87026",
+              "country": "US"
             }
           ],
           "live": true
@@ -456,7 +467,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T16:59:04Z",
+          "carrierUpdatedAt": "2026-08-15T17:40:17Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -465,11 +476,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T04:43:36Z",
-            "datetimeLocal": "2026-08-14T23:43:36-05:00",
-            "city": "PAMPA",
-            "state": "TX",
-            "zip": "79065",
+            "datetime": "2026-08-15T17:12:56Z",
+            "datetimeLocal": "2026-08-15T11:12:56-06:00",
+            "city": "LAGUNA",
+            "state": "NM",
+            "zip": "87026",
             "country": "US"
           },
           "events": [
@@ -626,6 +637,17 @@
               "state": "TX",
               "zip": "79065",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T17:12:56Z",
+              "datetimeLocal": "2026-08-15T11:12:56-06:00",
+              "city": "LAGUNA",
+              "state": "NM",
+              "zip": "87026",
+              "country": "US"
             }
           ],
           "live": true
@@ -640,7 +662,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T17:00:31Z",
+          "carrierUpdatedAt": "2026-08-15T17:42:06Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -649,11 +671,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T04:43:36Z",
-            "datetimeLocal": "2026-08-14T23:43:36-05:00",
-            "city": "PAMPA",
-            "state": "TX",
-            "zip": "79065",
+            "datetime": "2026-08-15T17:12:56Z",
+            "datetimeLocal": "2026-08-15T11:12:56-06:00",
+            "city": "LAGUNA",
+            "state": "NM",
+            "zip": "87026",
             "country": "US"
           },
           "events": [
@@ -810,6 +832,17 @@
               "state": "TX",
               "zip": "79065",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T17:12:56Z",
+              "datetimeLocal": "2026-08-15T11:12:56-06:00",
+              "city": "LAGUNA",
+              "state": "NM",
+              "zip": "87026",
+              "country": "US"
             }
           ],
           "live": true
@@ -824,7 +857,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T17:02:42Z",
+          "carrierUpdatedAt": "2026-08-15T17:40:37Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -833,11 +866,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T04:43:36Z",
-            "datetimeLocal": "2026-08-14T23:43:36-05:00",
-            "city": "PAMPA",
-            "state": "TX",
-            "zip": "79065",
+            "datetime": "2026-08-15T17:12:56Z",
+            "datetimeLocal": "2026-08-15T11:12:56-06:00",
+            "city": "LAGUNA",
+            "state": "NM",
+            "zip": "87026",
             "country": "US"
           },
           "events": [
@@ -994,6 +1027,17 @@
               "state": "TX",
               "zip": "79065",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T17:12:56Z",
+              "datetimeLocal": "2026-08-15T11:12:56-06:00",
+              "city": "LAGUNA",
+              "state": "NM",
+              "zip": "87026",
+              "country": "US"
             }
           ],
           "live": true
@@ -1008,7 +1052,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T17:11:03Z",
+          "carrierUpdatedAt": "2026-08-15T17:33:45Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1017,11 +1061,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T04:43:36Z",
-            "datetimeLocal": "2026-08-14T23:43:36-05:00",
-            "city": "PAMPA",
-            "state": "TX",
-            "zip": "79065",
+            "datetime": "2026-08-15T17:12:56Z",
+            "datetimeLocal": "2026-08-15T11:12:56-06:00",
+            "city": "LAGUNA",
+            "state": "NM",
+            "zip": "87026",
             "country": "US"
           },
           "events": [
@@ -1178,6 +1222,17 @@
               "state": "TX",
               "zip": "79065",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T17:12:56Z",
+              "datetimeLocal": "2026-08-15T11:12:56-06:00",
+              "city": "LAGUNA",
+              "state": "NM",
+              "zip": "87026",
+              "country": "US"
             }
           ],
           "live": true
@@ -1192,7 +1247,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T17:12:03Z",
+          "carrierUpdatedAt": "2026-08-15T17:39:04Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1201,11 +1256,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T04:43:36Z",
-            "datetimeLocal": "2026-08-14T23:43:36-05:00",
-            "city": "PAMPA",
-            "state": "TX",
-            "zip": "79065",
+            "datetime": "2026-08-15T17:12:56Z",
+            "datetimeLocal": "2026-08-15T11:12:56-06:00",
+            "city": "LAGUNA",
+            "state": "NM",
+            "zip": "87026",
             "country": "US"
           },
           "events": [
@@ -1373,6 +1428,17 @@
               "state": "TX",
               "zip": "79065",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T17:12:56Z",
+              "datetimeLocal": "2026-08-15T11:12:56-06:00",
+              "city": "LAGUNA",
+              "state": "NM",
+              "zip": "87026",
+              "country": "US"
             }
           ],
           "live": true
@@ -1387,7 +1453,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T17:06:59Z",
+          "carrierUpdatedAt": "2026-08-15T17:38:03Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1396,11 +1462,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T04:43:36Z",
-            "datetimeLocal": "2026-08-14T23:43:36-05:00",
-            "city": "PAMPA",
-            "state": "TX",
-            "zip": "79065",
+            "datetime": "2026-08-15T17:12:56Z",
+            "datetimeLocal": "2026-08-15T11:12:56-06:00",
+            "city": "LAGUNA",
+            "state": "NM",
+            "zip": "87026",
             "country": "US"
           },
           "events": [
@@ -1557,6 +1623,17 @@
               "state": "TX",
               "zip": "79065",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T17:12:56Z",
+              "datetimeLocal": "2026-08-15T11:12:56-06:00",
+              "city": "LAGUNA",
+              "state": "NM",
+              "zip": "87026",
+              "country": "US"
             }
           ],
           "live": true
@@ -1571,7 +1648,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T16:50:51Z",
+          "carrierUpdatedAt": "2026-08-15T17:34:30Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1580,11 +1657,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T04:43:36Z",
-            "datetimeLocal": "2026-08-14T23:43:36-05:00",
-            "city": "PAMPA",
-            "state": "TX",
-            "zip": "79065",
+            "datetime": "2026-08-15T17:12:56Z",
+            "datetimeLocal": "2026-08-15T11:12:56-06:00",
+            "city": "LAGUNA",
+            "state": "NM",
+            "zip": "87026",
             "country": "US"
           },
           "events": [
@@ -1729,6 +1806,17 @@
               "city": "PAMPA",
               "state": "TX",
               "zip": "79065",
+              "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T17:12:56Z",
+              "datetimeLocal": "2026-08-15T11:12:56-06:00",
+              "city": "LAGUNA",
+              "state": "NM",
+              "zip": "87026",
               "country": "US"
             }
           ],
