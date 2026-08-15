@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T04:01:20.908Z",
+  "generatedAt": "2026-08-15T05:18:23.306Z",
   "failedCount": 0,
   "batches": [
     {
@@ -165,7 +165,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:52:47Z",
+          "carrierUpdatedAt": "2026-08-15T04:53:35Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -272,7 +272,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:39:34Z",
+          "carrierUpdatedAt": "2026-08-15T04:51:48Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -281,11 +281,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-14T16:34:27Z",
-            "datetimeLocal": "2026-08-14T11:34:27-05:00",
-            "city": "INDEPENDENCE",
-            "state": "MO",
-            "zip": "64050",
+            "datetime": "2026-08-15T04:43:36Z",
+            "datetimeLocal": "2026-08-14T23:43:36-05:00",
+            "city": "PAMPA",
+            "state": "TX",
+            "zip": "79065",
             "country": "US"
           },
           "events": [
@@ -431,6 +431,17 @@
               "state": "MO",
               "zip": "64050",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T04:43:36Z",
+              "datetimeLocal": "2026-08-14T23:43:36-05:00",
+              "city": "PAMPA",
+              "state": "TX",
+              "zip": "79065",
+              "country": "US"
             }
           ],
           "live": true
@@ -445,7 +456,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:52:17Z",
+          "carrierUpdatedAt": "2026-08-15T04:41:17Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -618,7 +629,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:34:31Z",
+          "carrierUpdatedAt": "2026-08-15T04:50:06Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -627,11 +638,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-14T16:34:27Z",
-            "datetimeLocal": "2026-08-14T11:34:27-05:00",
-            "city": "INDEPENDENCE",
-            "state": "MO",
-            "zip": "64050",
+            "datetime": "2026-08-15T04:43:36Z",
+            "datetimeLocal": "2026-08-14T23:43:36-05:00",
+            "city": "PAMPA",
+            "state": "TX",
+            "zip": "79065",
             "country": "US"
           },
           "events": [
@@ -777,6 +788,17 @@
               "state": "MO",
               "zip": "64050",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-15T04:43:36Z",
+              "datetimeLocal": "2026-08-14T23:43:36-05:00",
+              "city": "PAMPA",
+              "state": "TX",
+              "zip": "79065",
+              "country": "US"
             }
           ],
           "live": true
@@ -791,7 +813,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:45:37Z",
+          "carrierUpdatedAt": "2026-08-15T04:25:54Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -964,7 +986,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:55:16Z",
+          "carrierUpdatedAt": "2026-08-15T04:38:06Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1137,7 +1159,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:53:05Z",
+          "carrierUpdatedAt": "2026-08-15T04:32:19Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1321,7 +1343,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:54:52Z",
+          "carrierUpdatedAt": "2026-08-15T04:36:56Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1494,7 +1516,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-15T03:57:16Z",
+          "carrierUpdatedAt": "2026-08-15T04:29:45Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
