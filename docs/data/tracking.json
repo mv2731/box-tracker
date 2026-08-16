@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T17:18:09.603Z",
+  "generatedAt": "2026-08-16T17:41:49.544Z",
   "failedCount": 0,
   "batches": [
     {
@@ -165,7 +165,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T17:07:37Z",
+          "carrierUpdatedAt": "2026-08-16T17:39:42Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -272,7 +272,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T17:17:36Z",
+          "carrierUpdatedAt": "2026-08-16T17:25:17Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -281,11 +281,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-16T05:18:34Z",
-            "datetimeLocal": "2026-08-15T22:18:34-07:00",
-            "city": "ESSEX",
+            "datetime": "2026-08-16T17:21:43Z",
+            "datetimeLocal": "2026-08-16T10:21:43-07:00",
+            "city": "STOCKTON",
             "state": "CA",
-            "zip": "92332",
+            "zip": "95215",
             "country": "US"
           },
           "events": [
@@ -464,6 +464,17 @@
               "state": "CA",
               "zip": "92332",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T17:21:43Z",
+              "datetimeLocal": "2026-08-16T10:21:43-07:00",
+              "city": "STOCKTON",
+              "state": "CA",
+              "zip": "95215",
+              "country": "US"
             }
           ],
           "live": true
@@ -478,7 +489,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T17:13:50Z",
+          "carrierUpdatedAt": "2026-08-16T17:40:08Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -487,11 +498,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-16T05:18:34Z",
-            "datetimeLocal": "2026-08-15T22:18:34-07:00",
-            "city": "ESSEX",
+            "datetime": "2026-08-16T17:21:43Z",
+            "datetimeLocal": "2026-08-16T10:21:43-07:00",
+            "city": "STOCKTON",
             "state": "CA",
-            "zip": "92332",
+            "zip": "95215",
             "country": "US"
           },
           "events": [
@@ -670,6 +681,17 @@
               "state": "CA",
               "zip": "92332",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T17:21:43Z",
+              "datetimeLocal": "2026-08-16T10:21:43-07:00",
+              "city": "STOCKTON",
+              "state": "CA",
+              "zip": "95215",
+              "country": "US"
             }
           ],
           "live": true
@@ -684,7 +706,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T17:05:57Z",
+          "carrierUpdatedAt": "2026-08-16T17:37:00Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -693,11 +715,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-16T05:18:34Z",
-            "datetimeLocal": "2026-08-15T22:18:34-07:00",
-            "city": "ESSEX",
+            "datetime": "2026-08-16T17:21:43Z",
+            "datetimeLocal": "2026-08-16T10:21:43-07:00",
+            "city": "STOCKTON",
             "state": "CA",
-            "zip": "92332",
+            "zip": "95215",
             "country": "US"
           },
           "events": [
@@ -876,6 +898,17 @@
               "state": "CA",
               "zip": "92332",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T17:21:43Z",
+              "datetimeLocal": "2026-08-16T10:21:43-07:00",
+              "city": "STOCKTON",
+              "state": "CA",
+              "zip": "95215",
+              "country": "US"
             }
           ],
           "live": true
@@ -890,7 +923,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T16:51:26Z",
+          "carrierUpdatedAt": "2026-08-16T17:28:40Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -899,11 +932,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-16T05:18:34Z",
-            "datetimeLocal": "2026-08-15T22:18:34-07:00",
-            "city": "ESSEX",
+            "datetime": "2026-08-16T17:21:43Z",
+            "datetimeLocal": "2026-08-16T10:21:43-07:00",
+            "city": "STOCKTON",
             "state": "CA",
-            "zip": "92332",
+            "zip": "95215",
             "country": "US"
           },
           "events": [
@@ -1082,6 +1115,17 @@
               "state": "CA",
               "zip": "92332",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T17:21:43Z",
+              "datetimeLocal": "2026-08-16T10:21:43-07:00",
+              "city": "STOCKTON",
+              "state": "CA",
+              "zip": "95215",
+              "country": "US"
             }
           ],
           "live": true
@@ -1096,7 +1140,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T16:51:36Z",
+          "carrierUpdatedAt": "2026-08-16T17:31:24Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1105,11 +1149,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-16T05:18:34Z",
-            "datetimeLocal": "2026-08-15T22:18:34-07:00",
-            "city": "ESSEX",
+            "datetime": "2026-08-16T17:21:43Z",
+            "datetimeLocal": "2026-08-16T10:21:43-07:00",
+            "city": "STOCKTON",
             "state": "CA",
-            "zip": "92332",
+            "zip": "95215",
             "country": "US"
           },
           "events": [
@@ -1288,6 +1332,17 @@
               "state": "CA",
               "zip": "92332",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T17:21:43Z",
+              "datetimeLocal": "2026-08-16T10:21:43-07:00",
+              "city": "STOCKTON",
+              "state": "CA",
+              "zip": "95215",
+              "country": "US"
             }
           ],
           "live": true
@@ -1302,7 +1357,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T17:17:08Z",
+          "carrierUpdatedAt": "2026-08-16T17:38:19Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1311,11 +1366,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-16T05:18:34Z",
-            "datetimeLocal": "2026-08-15T22:18:34-07:00",
-            "city": "ESSEX",
+            "datetime": "2026-08-16T17:21:43Z",
+            "datetimeLocal": "2026-08-16T10:21:43-07:00",
+            "city": "STOCKTON",
             "state": "CA",
-            "zip": "92332",
+            "zip": "95215",
             "country": "US"
           },
           "events": [
@@ -1505,6 +1560,17 @@
               "state": "CA",
               "zip": "92332",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T17:21:43Z",
+              "datetimeLocal": "2026-08-16T10:21:43-07:00",
+              "city": "STOCKTON",
+              "state": "CA",
+              "zip": "95215",
+              "country": "US"
             }
           ],
           "live": true
@@ -1519,7 +1585,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T17:17:52Z",
+          "carrierUpdatedAt": "2026-08-16T17:22:39Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1725,7 +1791,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T17:08:09Z",
+          "carrierUpdatedAt": "2026-08-16T17:38:49Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1734,11 +1800,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-16T05:18:34Z",
-            "datetimeLocal": "2026-08-15T22:18:34-07:00",
-            "city": "ESSEX",
+            "datetime": "2026-08-16T17:21:43Z",
+            "datetimeLocal": "2026-08-16T10:21:43-07:00",
+            "city": "STOCKTON",
             "state": "CA",
-            "zip": "92332",
+            "zip": "95215",
             "country": "US"
           },
           "events": [
@@ -1905,6 +1971,17 @@
               "city": "ESSEX",
               "state": "CA",
               "zip": "92332",
+              "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T17:21:43Z",
+              "datetimeLocal": "2026-08-16T10:21:43-07:00",
+              "city": "STOCKTON",
+              "state": "CA",
+              "zip": "95215",
               "country": "US"
             }
           ],
