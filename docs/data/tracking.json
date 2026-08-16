@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T05:28:25.533Z",
+  "generatedAt": "2026-08-16T05:54:05.514Z",
   "failedCount": 0,
   "batches": [
     {
@@ -165,7 +165,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T05:25:12Z",
+          "carrierUpdatedAt": "2026-08-16T05:37:50Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -272,7 +272,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T05:25:43Z",
+          "carrierUpdatedAt": "2026-08-16T05:33:29Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -478,7 +478,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T04:59:55Z",
+          "carrierUpdatedAt": "2026-08-16T05:51:42Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -487,11 +487,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T17:12:56Z",
-            "datetimeLocal": "2026-08-15T11:12:56-06:00",
-            "city": "LAGUNA",
-            "state": "NM",
-            "zip": "87026",
+            "datetime": "2026-08-16T05:18:34Z",
+            "datetimeLocal": "2026-08-15T22:18:34-07:00",
+            "city": "ESSEX",
+            "state": "CA",
+            "zip": "92332",
             "country": "US"
           },
           "events": [
@@ -659,6 +659,17 @@
               "state": "NM",
               "zip": "87026",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T05:18:34Z",
+              "datetimeLocal": "2026-08-15T22:18:34-07:00",
+              "city": "ESSEX",
+              "state": "CA",
+              "zip": "92332",
+              "country": "US"
             }
           ],
           "live": true
@@ -673,7 +684,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T05:27:05Z",
+          "carrierUpdatedAt": "2026-08-16T05:45:07Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -879,7 +890,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T04:49:35Z",
+          "carrierUpdatedAt": "2026-08-16T05:34:13Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -888,11 +899,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-15T17:12:56Z",
-            "datetimeLocal": "2026-08-15T11:12:56-06:00",
-            "city": "LAGUNA",
-            "state": "NM",
-            "zip": "87026",
+            "datetime": "2026-08-16T05:18:34Z",
+            "datetimeLocal": "2026-08-15T22:18:34-07:00",
+            "city": "ESSEX",
+            "state": "CA",
+            "zip": "92332",
             "country": "US"
           },
           "events": [
@@ -1060,6 +1071,17 @@
               "state": "NM",
               "zip": "87026",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-16T05:18:34Z",
+              "datetimeLocal": "2026-08-15T22:18:34-07:00",
+              "city": "ESSEX",
+              "state": "CA",
+              "zip": "92332",
+              "country": "US"
             }
           ],
           "live": true
@@ -1074,7 +1096,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T05:25:44Z",
+          "carrierUpdatedAt": "2026-08-16T05:50:14Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1280,10 +1302,10 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T05:26:41Z",
+          "carrierUpdatedAt": "2026-08-16T05:47:36Z",
           "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "BROOKLYN NY US",
+          "weightOz": null,
+          "originLocation": "NEW YORK NY, US, 10024",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
             "message": "On the way",
@@ -1497,7 +1519,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T05:28:12Z",
+          "carrierUpdatedAt": "2026-08-16T05:41:48Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1703,7 +1725,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-16T05:21:04Z",
+          "carrierUpdatedAt": "2026-08-16T05:44:36Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
