@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T03:25:58.039Z",
+  "generatedAt": "2026-08-17T04:10:10.530Z",
   "failedCount": 0,
   "batches": [
     {
@@ -165,7 +165,7 @@
           "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:25:31Z",
+          "carrierUpdatedAt": "2026-08-17T04:09:53Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -283,7 +283,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:25:13Z",
+          "carrierUpdatedAt": "2026-08-17T04:07:40Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -497,23 +497,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "in_transit",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:24:33Z",
+          "carrierUpdatedAt": "2026-08-17T04:08:11Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On the way",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "in_transit",
-            "datetime": "2026-08-16T17:21:43Z",
-            "datetimeLocal": "2026-08-16T10:21:43-07:00",
-            "city": "STOCKTON",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-17T03:43:00Z",
+            "datetimeLocal": "2026-08-16T20:43:00-07:00",
+            "city": "TRACY",
             "state": "CA",
-            "zip": "95215",
+            "zip": "95377",
             "country": "US"
           },
           "events": [
@@ -703,6 +703,17 @@
               "state": "CA",
               "zip": "95215",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-17T03:43:00Z",
+              "datetimeLocal": "2026-08-16T20:43:00-07:00",
+              "city": "TRACY",
+              "state": "CA",
+              "zip": "95377",
+              "country": "US"
             }
           ],
           "live": true
@@ -714,23 +725,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "in_transit",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:25:02Z",
+          "carrierUpdatedAt": "2026-08-17T04:09:36Z",
           "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "BROOKLYN NY US",
+          "weightOz": null,
+          "originLocation": "NEW YORK NY, US, 10024",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On the way",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "in_transit",
-            "datetime": "2026-08-16T17:21:43Z",
-            "datetimeLocal": "2026-08-16T10:21:43-07:00",
-            "city": "STOCKTON",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-17T03:43:00Z",
+            "datetimeLocal": "2026-08-16T20:43:00-07:00",
+            "city": "TRACY",
             "state": "CA",
-            "zip": "95215",
+            "zip": "95377",
             "country": "US"
           },
           "events": [
@@ -920,6 +931,17 @@
               "state": "CA",
               "zip": "95215",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-17T03:43:00Z",
+              "datetimeLocal": "2026-08-16T20:43:00-07:00",
+              "city": "TRACY",
+              "state": "CA",
+              "zip": "95377",
+              "country": "US"
             }
           ],
           "live": true
@@ -931,23 +953,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "in_transit",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:24:42Z",
+          "carrierUpdatedAt": "2026-08-17T04:09:32Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On the way",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "in_transit",
-            "datetime": "2026-08-16T17:21:43Z",
-            "datetimeLocal": "2026-08-16T10:21:43-07:00",
-            "city": "STOCKTON",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-17T03:42:00Z",
+            "datetimeLocal": "2026-08-16T20:42:00-07:00",
+            "city": "TRACY",
             "state": "CA",
-            "zip": "95215",
+            "zip": "95377",
             "country": "US"
           },
           "events": [
@@ -1137,6 +1159,17 @@
               "state": "CA",
               "zip": "95215",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-17T03:42:00Z",
+              "datetimeLocal": "2026-08-16T20:42:00-07:00",
+              "city": "TRACY",
+              "state": "CA",
+              "zip": "95377",
+              "country": "US"
             }
           ],
           "live": true
@@ -1148,23 +1181,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "in_transit",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:24:57Z",
+          "carrierUpdatedAt": "2026-08-17T04:09:45Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On the way",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "in_transit",
-            "datetime": "2026-08-16T17:21:43Z",
-            "datetimeLocal": "2026-08-16T10:21:43-07:00",
-            "city": "STOCKTON",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-17T03:42:00Z",
+            "datetimeLocal": "2026-08-16T20:42:00-07:00",
+            "city": "TRACY",
             "state": "CA",
-            "zip": "95215",
+            "zip": "95377",
             "country": "US"
           },
           "events": [
@@ -1354,6 +1387,17 @@
               "state": "CA",
               "zip": "95215",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-17T03:42:00Z",
+              "datetimeLocal": "2026-08-16T20:42:00-07:00",
+              "city": "TRACY",
+              "state": "CA",
+              "zip": "95377",
+              "country": "US"
             }
           ],
           "live": true
@@ -1365,23 +1409,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "in_transit",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:25:20Z",
+          "carrierUpdatedAt": "2026-08-17T04:06:34Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On the way",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "in_transit",
-            "datetime": "2026-08-16T17:21:43Z",
-            "datetimeLocal": "2026-08-16T10:21:43-07:00",
-            "city": "STOCKTON",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-17T03:38:00Z",
+            "datetimeLocal": "2026-08-16T20:38:00-07:00",
+            "city": "TRACY",
             "state": "CA",
-            "zip": "95215",
+            "zip": "95377",
             "country": "US"
           },
           "events": [
@@ -1582,6 +1626,17 @@
               "state": "CA",
               "zip": "95215",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-17T03:38:00Z",
+              "datetimeLocal": "2026-08-16T20:38:00-07:00",
+              "city": "TRACY",
+              "state": "CA",
+              "zip": "95377",
+              "country": "US"
             }
           ],
           "live": true
@@ -1593,23 +1648,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "in_transit",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:25:21Z",
+          "carrierUpdatedAt": "2026-08-17T04:09:37Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On the way",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "in_transit",
-            "datetime": "2026-08-16T17:21:43Z",
-            "datetimeLocal": "2026-08-16T10:21:43-07:00",
-            "city": "STOCKTON",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-17T03:44:00Z",
+            "datetimeLocal": "2026-08-16T20:44:00-07:00",
+            "city": "TRACY",
             "state": "CA",
-            "zip": "95215",
+            "zip": "95377",
             "country": "US"
           },
           "events": [
@@ -1799,6 +1854,17 @@
               "state": "CA",
               "zip": "95215",
               "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-17T03:44:00Z",
+              "datetimeLocal": "2026-08-16T20:44:00-07:00",
+              "city": "TRACY",
+              "state": "CA",
+              "zip": "95377",
+              "country": "US"
             }
           ],
           "live": true
@@ -1810,23 +1876,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "in_transit",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-17T03:24:59Z",
+          "carrierUpdatedAt": "2026-08-17T04:09:55Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On the way",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "in_transit",
-            "datetime": "2026-08-16T17:21:43Z",
-            "datetimeLocal": "2026-08-16T10:21:43-07:00",
-            "city": "STOCKTON",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-17T03:35:00Z",
+            "datetimeLocal": "2026-08-16T20:35:00-07:00",
+            "city": "TRACY",
             "state": "CA",
-            "zip": "95215",
+            "zip": "95377",
             "country": "US"
           },
           "events": [
@@ -2004,6 +2070,17 @@
               "city": "STOCKTON",
               "state": "CA",
               "zip": "95215",
+              "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-17T03:35:00Z",
+              "datetimeLocal": "2026-08-16T20:35:00-07:00",
+              "city": "TRACY",
+              "state": "CA",
+              "zip": "95377",
               "country": "US"
             }
           ],
