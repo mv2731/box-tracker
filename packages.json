@@ -1,6 +1,21 @@
 {
   "batches": [
     {
+      "id": "batch4",
+      "title": "Our fourth batch of boxes",
+      "origin": "New York, NY",
+      "destination": "Sunnyvale, CA",
+      "packages": [
+        { "nickname": "Box 1", "trackingCode": "875837451090" },
+        { "nickname": "Box 2", "trackingCode": "875837450494" },
+        { "nickname": "Box 3", "trackingCode": "875837450005" },
+        { "nickname": "Box 4", "trackingCode": "875837450597" },
+        { "nickname": "Box 5", "trackingCode": "875837451218" },
+        { "nickname": "Box 6", "trackingCode": "875837451273" },
+        { "nickname": "Box 7", "trackingCode": "875837450440" }
+      ]
+    },
+    {
       "id": "batch3",
       "title": "Our third batch of boxes",
       "origin": "New York, NY",
