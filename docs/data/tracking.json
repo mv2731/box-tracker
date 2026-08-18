@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T20:46:31.348Z",
+  "generatedAt": "2026-08-18T21:15:51.066Z",
   "failedCount": 0,
   "batches": [
     {
@@ -471,7 +471,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-18T20:30:30Z",
+          "carrierUpdatedAt": "2026-08-18T21:14:21Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -684,24 +684,24 @@
           "trackerUrl": "https://track.easypost.com/djE6dHJrXzQzOGFlNjM4ZGE2ODRjN2Q4NTc4ZjE5NzZkYzY5NmVk",
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
-          "status": "out_for_delivery",
-          "statusDetail": "out_for_delivery",
-          "estDelivery": "2026-08-18T00:00:00Z",
+          "status": "delivered",
+          "statusDetail": "arrived_at_destination",
+          "estDelivery": "2026-08-18T21:03:32Z",
           "estDeliveryLocal": "2026-08-18",
-          "carrierUpdatedAt": "2026-08-18T20:46:16Z",
+          "carrierUpdatedAt": "2026-08-18T21:13:08Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On FedEx vehicle for delivery",
-            "status": "out_for_delivery",
-            "statusDetail": "out_for_delivery",
-            "datetime": "2026-08-18T11:34:00Z",
-            "datetimeLocal": "2026-08-18T04:34:00-07:00",
-            "city": "NEWARK",
+            "message": "Delivered (Left at front door. Signature Service not requested.)",
+            "status": "delivered",
+            "statusDetail": "arrived_at_destination",
+            "datetime": "2026-08-18T21:03:32Z",
+            "datetimeLocal": "2026-08-18T14:03:32-07:00",
+            "city": "Sunnyvale",
             "state": "CA",
-            "zip": "94560",
+            "zip": "94086",
             "country": "US"
           },
           "events": [
@@ -978,6 +978,17 @@
               "city": "NEWARK",
               "state": "CA",
               "zip": "94560",
+              "country": "US"
+            },
+            {
+              "message": "Delivered (Left at front door. Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-08-18T21:03:32Z",
+              "datetimeLocal": "2026-08-18T14:03:32-07:00",
+              "city": "Sunnyvale",
+              "state": "CA",
+              "zip": "94086",
               "country": "US"
             }
           ],
