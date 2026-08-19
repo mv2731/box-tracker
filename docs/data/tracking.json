@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T14:05:15.419Z",
+  "generatedAt": "2026-08-19T15:00:36.991Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,20 +21,20 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T14:02:51Z",
+          "carrierUpdatedAt": "2026-08-19T14:59:57Z",
           "signedBy": null,
-          "weightOz": null,
-          "originLocation": "BROOKLYN NY, US, 11211",
+          "weightOz": 80,
+          "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -125,6 +125,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -139,7 +150,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:50:14Z",
+          "carrierUpdatedAt": "2026-08-19T14:48:18Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -148,11 +159,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -243,6 +254,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -257,7 +279,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T14:05:11Z",
+          "carrierUpdatedAt": "2026-08-19T14:51:58Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -266,11 +288,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -361,6 +383,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -375,7 +408,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:27:50Z",
+          "carrierUpdatedAt": "2026-08-19T14:41:04Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -384,11 +417,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -479,6 +512,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -493,7 +537,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:51:35Z",
+          "carrierUpdatedAt": "2026-08-19T15:00:28Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -502,11 +546,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -597,6 +641,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -611,7 +666,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:33:45Z",
+          "carrierUpdatedAt": "2026-08-19T14:40:02Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -620,11 +675,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -715,6 +770,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -729,7 +795,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:55:51Z",
+          "carrierUpdatedAt": "2026-08-19T14:50:20Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -738,11 +804,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -833,6 +899,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -858,7 +935,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:46:46Z",
+          "carrierUpdatedAt": "2026-08-19T14:58:06Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -867,11 +944,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -962,6 +1039,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -976,7 +1064,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:56:54Z",
+          "carrierUpdatedAt": "2026-08-19T14:52:39Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -985,11 +1073,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -1080,6 +1168,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -1094,7 +1193,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T14:00:07Z",
+          "carrierUpdatedAt": "2026-08-19T14:42:57Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1103,11 +1202,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -1198,6 +1297,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -1212,7 +1322,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:42:08Z",
+          "carrierUpdatedAt": "2026-08-19T14:51:02Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1221,11 +1331,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -1316,6 +1426,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -1330,7 +1451,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:47:42Z",
+          "carrierUpdatedAt": "2026-08-19T14:39:18Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1437,7 +1558,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:52:22Z",
+          "carrierUpdatedAt": "2026-08-19T14:52:40Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1446,11 +1567,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T02:21:07Z",
-            "datetimeLocal": "2026-08-18T22:21:07-04:00",
-            "city": "ARCHBOLD",
-            "state": "OH",
-            "zip": "43502",
+            "datetime": "2026-08-19T14:22:35Z",
+            "datetimeLocal": "2026-08-19T09:22:35-05:00",
+            "city": "UNDERWOOD",
+            "state": "IA",
+            "zip": "51576",
             "country": "US"
           },
           "events": [
@@ -1541,6 +1662,17 @@
               "state": "OH",
               "zip": "43502",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-19T14:22:35Z",
+              "datetimeLocal": "2026-08-19T09:22:35-05:00",
+              "city": "UNDERWOOD",
+              "state": "IA",
+              "zip": "51576",
+              "country": "US"
             }
           ],
           "live": true
@@ -1555,7 +1687,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-19T13:08:43Z",
+          "carrierUpdatedAt": "2026-08-19T14:19:26Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1846,7 +1978,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-19T14:03:57Z",
+          "carrierUpdatedAt": "2026-08-19T14:58:47Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
