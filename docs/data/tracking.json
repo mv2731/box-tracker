@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T02:12:54.203Z",
+  "generatedAt": "2026-08-20T03:23:24.511Z",
   "failedCount": 0,
   "batches": [
     {
@@ -21,7 +21,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T01:51:37Z",
+          "carrierUpdatedAt": "2026-08-20T02:54:05Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -30,11 +30,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -136,6 +136,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -150,7 +161,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:02:06Z",
+          "carrierUpdatedAt": "2026-08-20T03:21:31Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -159,11 +170,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -265,6 +276,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -279,7 +301,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:05:36Z",
+          "carrierUpdatedAt": "2026-08-20T03:22:03Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -288,11 +310,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -394,6 +416,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -408,7 +441,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:07:03Z",
+          "carrierUpdatedAt": "2026-08-20T02:15:09Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -537,7 +570,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:01:13Z",
+          "carrierUpdatedAt": "2026-08-20T03:09:14Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -546,11 +579,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -652,6 +685,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -666,7 +710,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T01:47:21Z",
+          "carrierUpdatedAt": "2026-08-20T03:19:52Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -675,11 +719,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -781,6 +825,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -795,7 +850,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:01:42Z",
+          "carrierUpdatedAt": "2026-08-20T03:16:58Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -804,11 +859,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -910,6 +965,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -935,7 +1001,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:10:41Z",
+          "carrierUpdatedAt": "2026-08-20T03:11:02Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -944,11 +1010,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -1050,6 +1116,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -1064,7 +1141,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T01:14:34Z",
+          "carrierUpdatedAt": "2026-08-20T03:19:21Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1073,11 +1150,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -1179,6 +1256,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -1193,7 +1281,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:12:00Z",
+          "carrierUpdatedAt": "2026-08-20T03:20:20Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1202,11 +1290,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -1308,6 +1396,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -1322,7 +1421,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:11:09Z",
+          "carrierUpdatedAt": "2026-08-20T03:14:24Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1331,11 +1430,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -1437,6 +1536,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -1451,7 +1561,7 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T01:55:05Z",
+          "carrierUpdatedAt": "2026-08-20T03:01:10Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1558,7 +1668,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T01:35:27Z",
+          "carrierUpdatedAt": "2026-08-20T03:18:27Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1567,11 +1677,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -1673,6 +1783,17 @@
               "state": "IA",
               "zip": "51576",
               "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
+              "country": "US"
             }
           ],
           "live": true
@@ -1687,7 +1808,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-20T02:12:35Z",
+          "carrierUpdatedAt": "2026-08-20T03:11:47Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -1696,11 +1817,11 @@
             "message": "On the way",
             "status": "in_transit",
             "statusDetail": "in_transit",
-            "datetime": "2026-08-19T14:22:35Z",
-            "datetimeLocal": "2026-08-19T09:22:35-05:00",
-            "city": "UNDERWOOD",
-            "state": "IA",
-            "zip": "51576",
+            "datetime": "2026-08-20T02:31:49Z",
+            "datetimeLocal": "2026-08-19T20:31:49-06:00",
+            "city": "GREEN RIVER",
+            "state": "WY",
+            "zip": "82935",
             "country": "US"
           },
           "events": [
@@ -1801,6 +1922,17 @@
               "city": "UNDERWOOD",
               "state": "IA",
               "zip": "51576",
+              "country": "US"
+            },
+            {
+              "message": "On the way",
+              "status": "in_transit",
+              "statusDetail": "in_transit",
+              "datetime": "2026-08-20T02:31:49Z",
+              "datetimeLocal": "2026-08-19T20:31:49-06:00",
+              "city": "GREEN RIVER",
+              "state": "WY",
+              "zip": "82935",
               "country": "US"
             }
           ],
@@ -1989,7 +2121,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-20T02:05:46Z",
+          "carrierUpdatedAt": "2026-08-20T03:17:21Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
