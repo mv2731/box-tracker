@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:55:13.562Z",
+  "generatedAt": "2026-08-22T09:19:34.111Z",
   "failedCount": 0,
   "batches": [
     {
@@ -2309,10 +2309,10 @@
           "statusDetail": "departed_facility",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-22T08:54:02Z",
+          "carrierUpdatedAt": "2026-08-22T09:13:01Z",
           "signedBy": null,
           "weightOz": 80,
-          "originLocation": "BROOKLYN NY US",
+          "originLocation": "New York NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
             "message": "Departed FedEx location",
@@ -3012,7 +3012,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-22T08:50:40Z",
+          "carrierUpdatedAt": "2026-08-22T09:06:38Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
