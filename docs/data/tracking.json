@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:18:40.632Z",
+  "generatedAt": "2026-08-24T03:30:00.030Z",
   "failedCount": 0,
   "batches": [
     {
@@ -2309,7 +2309,7 @@
           "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-24T02:17:46Z",
+          "carrierUpdatedAt": "2026-08-24T03:29:39Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
@@ -3023,7 +3023,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-24T02:17:26Z",
+          "carrierUpdatedAt": "2026-08-24T03:25:00Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
