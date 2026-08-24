@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T20:56:49.477Z",
+  "generatedAt": "2026-08-24T21:24:59.016Z",
   "failedCount": 0,
   "batches": [
     {
@@ -2305,25 +2305,25 @@
           "trackerUrl": "https://track.easypost.com/djE6dHJrX2I3YjU1NTM5NDgyMTQ5YzI4NTY1Mzg4NjVmYWRhOTky",
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
-          "status": "out_for_delivery",
-          "statusDetail": "out_for_delivery",
-          "estDelivery": "2026-08-24T00:00:00Z",
+          "status": "delivered",
+          "statusDetail": "arrived_at_destination",
+          "estDelivery": "2026-08-24T21:20:46Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-24T20:56:24Z",
-          "signedBy": null,
+          "carrierUpdatedAt": "2026-08-24T21:21:39Z",
+          "signedBy": "Signature Not Req",
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "On FedEx vehicle for delivery",
-            "status": "out_for_delivery",
-            "statusDetail": "out_for_delivery",
-            "datetime": "2026-08-24T13:03:00Z",
-            "datetimeLocal": "2026-08-24T06:03:00-07:00",
-            "city": "NEWARK",
-            "state": "CA",
-            "zip": "94560",
-            "country": "US"
+            "message": "Delivered ( Signature Service not requested.)",
+            "status": "delivered",
+            "statusDetail": "arrived_at_destination",
+            "datetime": "2026-08-24T21:20:46Z",
+            "datetimeLocal": "2026-08-24T14:20:46-07:00",
+            "city": null,
+            "state": null,
+            "zip": null,
+            "country": null
           },
           "events": [
             {
@@ -2446,6 +2446,17 @@
               "state": "CA",
               "zip": "94560",
               "country": "US"
+            },
+            {
+              "message": "Delivered ( Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-08-24T21:20:46Z",
+              "datetimeLocal": "2026-08-24T14:20:46-07:00",
+              "city": null,
+              "state": null,
+              "zip": null,
+              "country": null
             }
           ],
           "live": true
@@ -3056,10 +3067,10 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-24T20:49:33Z",
+          "carrierUpdatedAt": "2026-08-24T21:24:57Z",
           "signedBy": null,
-          "weightOz": null,
-          "originLocation": "NEW YORK NY, US, 10024",
+          "weightOz": 80,
+          "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
             "message": "On the way",
