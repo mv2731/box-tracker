@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T00:50:06.728Z",
+  "generatedAt": "2026-08-24T02:18:40.632Z",
   "failedCount": 0,
   "batches": [
     {
@@ -2306,23 +2306,23 @@
           "carrier": "FedEx",
           "service": "FEDEX_GROUND",
           "status": "in_transit",
-          "statusDetail": "departed_facility",
+          "statusDetail": "arrived_at_facility",
           "estDelivery": "2026-08-24T00:00:00Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-24T00:46:10Z",
+          "carrierUpdatedAt": "2026-08-24T02:17:46Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
-            "message": "Departed FedEx location",
+            "message": "Arrived at FedEx location",
             "status": "in_transit",
-            "statusDetail": "departed_facility",
-            "datetime": "2026-08-18T15:13:40Z",
-            "datetimeLocal": "2026-08-18T11:13:40-04:00",
-            "city": "EDISON",
-            "state": "NJ",
-            "zip": "08817",
+            "statusDetail": "arrived_at_facility",
+            "datetime": "2026-08-24T01:40:00Z",
+            "datetimeLocal": "2026-08-23T18:40:00-07:00",
+            "city": "TRACY",
+            "state": "CA",
+            "zip": "95377",
             "country": "US"
           },
           "events": [
@@ -2401,6 +2401,17 @@
               "city": "EDISON",
               "state": "NJ",
               "zip": "08817",
+              "country": "US"
+            },
+            {
+              "message": "Arrived at FedEx location",
+              "status": "in_transit",
+              "statusDetail": "arrived_at_facility",
+              "datetime": "2026-08-24T01:40:00Z",
+              "datetimeLocal": "2026-08-23T18:40:00-07:00",
+              "city": "TRACY",
+              "state": "CA",
+              "zip": "95377",
               "country": "US"
             }
           ],
@@ -3012,7 +3023,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-24T00:44:54Z",
+          "carrierUpdatedAt": "2026-08-24T02:17:26Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
