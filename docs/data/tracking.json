@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T21:24:59.016Z",
+  "generatedAt": "2026-08-24T21:51:45.561Z",
   "failedCount": 0,
   "batches": [
     {
@@ -2307,10 +2307,10 @@
           "service": "FEDEX_GROUND",
           "status": "delivered",
           "statusDetail": "arrived_at_destination",
-          "estDelivery": "2026-08-24T21:20:46Z",
+          "estDelivery": "2026-08-24T21:20:36Z",
           "estDeliveryLocal": "2026-08-24",
-          "carrierUpdatedAt": "2026-08-24T21:21:39Z",
-          "signedBy": "Signature Not Req",
+          "carrierUpdatedAt": "2026-08-24T21:46:38Z",
+          "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
           "destinationLocation": "Sunnyvale CA US",
@@ -2445,6 +2445,17 @@
               "city": "NEWARK",
               "state": "CA",
               "zip": "94560",
+              "country": "US"
+            },
+            {
+              "message": "Delivered (Left at garage. Signature Service not requested.)",
+              "status": "delivered",
+              "statusDetail": "arrived_at_destination",
+              "datetime": "2026-08-24T21:20:36Z",
+              "datetimeLocal": "2026-08-24T14:20:36-07:00",
+              "city": "Sunnyvale",
+              "state": "CA",
+              "zip": "94086",
               "country": "US"
             },
             {
@@ -3067,7 +3078,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-24T21:24:57Z",
+          "carrierUpdatedAt": "2026-08-24T21:43:17Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
