@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T17:09:23.046Z",
+  "generatedAt": "2026-08-31T21:57:54.063Z",
   "failedCount": 0,
   "batches": [
     {
@@ -3078,7 +3078,7 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-08-31T16:57:11Z",
+          "carrierUpdatedAt": "2026-08-31T21:45:53Z",
           "signedBy": null,
           "weightOz": 80,
           "originLocation": "BROOKLYN NY US",
