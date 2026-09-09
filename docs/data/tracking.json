@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T21:31:03.888Z",
+  "generatedAt": "2026-09-09T23:42:59.670Z",
   "failedCount": 0,
   "batches": [
     {
@@ -3078,10 +3078,10 @@
           "statusDetail": "in_transit",
           "estDelivery": "2026-08-17T00:00:00Z",
           "estDeliveryLocal": "2026-08-17",
-          "carrierUpdatedAt": "2026-09-09T21:22:48Z",
+          "carrierUpdatedAt": "2026-09-09T23:35:48Z",
           "signedBy": null,
-          "weightOz": 80,
-          "originLocation": "BROOKLYN NY US",
+          "weightOz": null,
+          "originLocation": "NEW YORK NY, US, 10024",
           "destinationLocation": "Sunnyvale CA US",
           "lastEvent": {
             "message": "On the way",
